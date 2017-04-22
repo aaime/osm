@@ -1,0 +1,58 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--3afbe93:15a98fb383b:-7fee</id>
+  <name>osm</name>
+  <mode>SINGLE</mode>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-4693221d:15a9d7f11fe:-7fe5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-4693221d:15a9d7f11fe:-7fde</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--547a051d:15a999429a2:-7ffc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3afbe93:15a98fb383b:-7ff5</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--547a051d:15a999429a2:-7ffe</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3366d757:15a9a13cea5:-7feb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3afbe93:15a98fb383b:-7fef</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3700f40f:15a98f29168:-7ffa</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7bb5548c:15abdfdff2c:-7f1c</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--3afbe93:15a98fb383b:-7ff3</id>
+    </published>
+  </publishables>
+  <styles>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style/>
+    <style>
+      <id>StyleInfoImpl-85aa815:15b95014e29:-7ffa</id>
+    </style>
+    <style/>
+    <style/>
+  </styles>
+  <bounds>
+    <minx>-2.0037508342789244E7</minx>
+    <maxx>2.0037508342789244E7</maxx>
+    <miny>-2.00489661040146E7</miny>
+    <maxy>2.0048966104014594E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+</layerGroup>

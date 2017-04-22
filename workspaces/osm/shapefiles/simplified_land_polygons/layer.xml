@@ -1,0 +1,15 @@
+<layer>
+  <name>simplified_land_polygons</name>
+  <id>LayerInfoImpl--3afbe93:15a98fb383b:-7ff5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3afbe93:15a98fb383b:-7fd0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3afbe93:15a98fb383b:-7ff6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

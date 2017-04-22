@@ -1,0 +1,15 @@
+<layer>
+  <name>ne_110m_admin_0_boundary_lines_land</name>
+  <id>LayerInfoImpl--3afbe93:15a98fb383b:-7fef</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3afbe93:15a98fb383b:-7fec</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3afbe93:15a98fb383b:-7ff0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,15 @@
+<layer>
+  <name>osm_boundary</name>
+  <id>LayerInfoImpl--7bb5548c:15abdfdff2c:-7f1c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7bb5548c:15abdfdff2c:-7f0f</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7bb5548c:15abdfdff2c:-7f1d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

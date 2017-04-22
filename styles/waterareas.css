@@ -1,0 +1,5 @@
+/* @title swimmig pool */
+[type = 'swimming_pool'][@scale <= 50000] {
+    fill: #b5d0d0;
+    stroke: #b5d0d0;  /* saturate(darken(@water-color, 40%), 30%) */
+}

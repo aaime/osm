@@ -1,0 +1,37 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-4693221d:15a9d7f11fe:-7fdf</id>
+  <name>simplified_water_polygons</name>
+  <nativeName>simplified_water_polygons</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3700f40f:15a98f29168:-7ffd</id>
+  </namespace>
+  <title>simplified_water_polygons</title>
+  <keywords>
+    <string>features</string>
+    <string>simplified_water_polygons</string>
+  </keywords>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>-2.00375583427892E7</minx>
+    <maxx>2.00375583427892E7</maxx>
+    <miny>-2.0037408342789244E7</miny>
+    <maxy>2.00375583427892E7</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-85.0510512844718</miny>
+    <maxy>85.05116752702003</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3afbe93:15a98fb383b:-7ff7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,15 @@
+<layer>
+  <name>icesheet_outlines</name>
+  <id>LayerInfoImpl--3366d757:15a9a13cea5:-7feb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--3366d757:15a9a13cea5:-7fea</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--3366d757:15a9a13cea5:-7fec</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

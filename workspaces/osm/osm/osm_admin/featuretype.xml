@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--3700f40f:15a98f29168:-7ffb</id>
+  <name>osm_admin</name>
+  <nativeName>osm_admin</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--3700f40f:15a98f29168:-7ffd</id>
+  </namespace>
+  <title>osm_admin</title>
+  <keywords>
+    <string>features</string>
+    <string>osm_admin</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>730977.125</minx>
+    <maxx>2097845.0</maxx>
+    <miny>4194450.0</miny>
+    <maxy>5965897.5</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>6.5664792372924605</minx>
+    <maxx>18.845262272137173</maxx>
+    <miny>35.224633527247626</miny>
+    <maxy>47.14575479235418</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--3700f40f:15a98f29168:-7ffc</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

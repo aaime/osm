@@ -1,0 +1,5 @@
+/* @title Country boundaries */
+[@scale > 100000000] {
+    stroke: #ac46ac;
+    stroke-width: 10000m;
+}

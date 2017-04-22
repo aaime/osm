@@ -1,0 +1,6 @@
+[ capital = 1 and name is not null] {
+    mark: url('./symbols/place/place-capital-6.svg');
+    mark-mime: 'image/svg+xml';
+    label: [name];
+    sort-by: population D;
+}

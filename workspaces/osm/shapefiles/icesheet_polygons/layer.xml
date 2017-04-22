@@ -1,0 +1,15 @@
+<layer>
+  <name>icesheet_polygons</name>
+  <id>LayerInfoImpl--547a051d:15a999429a2:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--547a051d:15a999429a2:-7ff5</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--547a051d:15a999429a2:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

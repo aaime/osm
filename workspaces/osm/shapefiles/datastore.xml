@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl--3afbe93:15a98fb383b:-7ff7</id>
+  <name>shapefiles</name>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--3700f40f:15a98f29168:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Europe/Rome</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">http://www.geoserver.org/osm</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:shapefiles</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

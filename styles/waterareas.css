@@ -1,5 +1,19 @@
-/* @title swimmig pool */
-[type = 'swimming_pool'][@scale <= 50000] {
-    fill: #b5d0d0;
-    stroke: #b5d0d0;  /* saturate(darken(@water-color, 40%), 30%) */
+/* @title Glacier */
+[type = 'glacier'][@scale < 12500000] {
+  fill: #ddecec;
+  stroke: #9cf;
+  [@scale < 800000] {
+    stroke-dasharray: 4 2;
+    stroke-width: 1.5;
+  }
+}
+
+/* @title Docks, canals, basin, water, reservoir */
+[type in ('dock', 'canal')][@scale < 1500000],
+[type = 'basin'][@scale < 6000000],
+[type in ('water', 'reservoir', 'riverbank')][@scale < 12500000]
+{
+  fill: #b5d0d0;
+  stroke: #b5d0d0; /* compensating for lack of gamma control here*/
+  stroke-width: 0.5;
 }

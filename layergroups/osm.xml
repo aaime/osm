@@ -4,9 +4,6 @@
   <mode>SINGLE</mode>
   <publishables>
     <published type="layer">
-      <id>LayerInfoImpl-4693221d:15a9d7f11fe:-7fe5</id>
-    </published>
-    <published type="layer">
       <id>LayerInfoImpl-4693221d:15a9d7f11fe:-7fde</id>
     </published>
     <published type="layer">
@@ -17,6 +14,9 @@
     </published>
     <published type="layer">
       <id>LayerInfoImpl--547a051d:15a999429a2:-7ffe</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-631386fb:15abe1cc787:-7ffd</id>
     </published>
     <published type="layer">
       <id>LayerInfoImpl--3366d757:15a9a13cea5:-7feb</id>

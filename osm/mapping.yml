@@ -562,8 +562,11 @@ tables:
       - swimming_pool
       natural:
       - water
+      - glacier
       waterway:
       - riverbank
+      - dock
+      - canal
     type: polygon
   waterways:
     fields:
@@ -576,6 +579,15 @@ tables:
       type: string
     - name: type
       type: mapping_value
+    - key: tunnel
+      name: tunnel
+      type: string
+    - key: intermittent
+      name: intermittent
+      type: bool
+    - key: bridge
+      name: bridge
+      type: string
     mapping:
       barrier:
       - ditch
@@ -585,4 +597,9 @@ tables:
       - canal
       - drain
       - ditch
+      - dam
+      - weir
+      - lock_gate
+      - derelict_canal
+      - wadi
     type: linestring

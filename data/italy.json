@@ -1,5 +1,0 @@
-{
-    "mapping": "mapping.yml",
-    "connection": "postgis://cite:cite@localhost/osm"
-}
-

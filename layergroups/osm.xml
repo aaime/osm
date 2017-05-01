@@ -33,6 +33,9 @@
     <published type="layer">
       <id>LayerInfoImpl--3afbe93:15a98fb383b:-7ff3</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7d0bbe0a:15b95bcc902:-7ffc</id>
+    </published>
   </publishables>
   <styles>
     <style/>
@@ -45,6 +48,7 @@
     <style>
       <id>StyleInfoImpl-85aa815:15b95014e29:-7ffa</id>
     </style>
+    <style/>
     <style/>
     <style/>
   </styles>

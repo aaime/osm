@@ -1,4 +1,4 @@
-# OpenStreemMap rendering playground 
+# OpenStreetMap rendering playground 
 
 This is a data directory with GeoServer CSS styles for OSM rendering.
 It's going to start as a clone-ish of osm-bright, it's likely that more variants will follow.

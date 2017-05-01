@@ -8,8 +8,9 @@ Reference usage:
 
 Where myconfig.json could look something like:
 
+````
 {
     "mapping": "mapping.yml",
     "connection": "postgis://username:passwod@localhost/osm"
 }
-
+````

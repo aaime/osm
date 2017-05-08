@@ -1,12 +1,12 @@
 <layer>
-  <name>osm_admin</name>
-  <id>LayerInfoImpl--3700f40f:15a98f29168:-7ffa</id>
+  <name>osm_waterways</name>
+  <id>LayerInfoImpl--195a4656:15bc41928c1:-7ea7</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-85aa815:15b95014e29:-7ffa</id>
+    <id>StyleInfoImpl--195a4656:15bc41928c1:-7ea6</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--3700f40f:15a98f29168:-7ffb</id>
+    <id>FeatureTypeInfoImpl--195a4656:15bc41928c1:-7ea8</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

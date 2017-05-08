@@ -306,15 +306,23 @@ tables:
       - library
       - fuel
       - parking
+      - bicycle_parking
+      - motorcycle_parking
       - cinema
       - theatre
       - place_of_worship
       - hospital
+      - kindergarten
+      - grave_yard
+      - prison
+      - clinic
       barrier:
       - hedge
       highway:
       - pedestrian
       - footway
+      - services
+      - rest_area
       landuse:
       - park
       - forest
@@ -336,6 +344,13 @@ tables:
       - recreation_ground
       - allotments
       - quarry
+      - military
+      - cemetery
+      - garages
+      - greenhouse_horticulture
+      - brownfield
+      - landfill
+      - construction
       leisure:
       - park
       - garden
@@ -346,20 +361,44 @@ tables:
       - stadium
       - common
       - nature_reserve
+      - recreation_ground
+      - miniature_golf
+      - picnic_table
+      - track
+      - dog_park
       man_made:
       - pier
       military:
-      - barracks
+      - danger_area
       natural:
       - wood
       - land
       - scrub
       - wetland
       - heath
+      - sand
+      - scree
+      - shingle
+      - bare_rock
+      - beach
+      - shoal
+      - grassland
+      - wood
+      - sand
+      - bare_orock
       place:
       - island
+      power: 
+      - station
+      - sub_station
+      - substation 
+      - generator
       tourism:
       - zoo
+      - attraction
+      - camp_site
+      - caravan_site
+      - picnic_site
     type: polygon
   places:
     fields:
@@ -588,6 +627,9 @@ tables:
     - key: bridge
       name: bridge
       type: string
+    - key: lock
+      name: lock
+      type: string
     mapping:
       barrier:
       - ditch
@@ -602,4 +644,8 @@ tables:
       - lock_gate
       - derelict_canal
       - wadi
+      man_made:
+      - pier
+      - breakwater
+      - groyne
     type: linestring

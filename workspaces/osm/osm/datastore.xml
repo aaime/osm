@@ -24,7 +24,7 @@
     <entry key="Connection timeout">20</entry>
     <entry key="create database">false</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt1:JjPEd/ESUj1T0p1w7+mMCQ==</entry>
+    <entry key="passwd">crypt1:7AePtr75s6sIx3NEdp5XCA==</entry>
     <entry key="min connections">1</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="namespace">http://www.geoserver.org/osm</entry>

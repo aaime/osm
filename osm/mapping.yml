@@ -243,8 +243,9 @@ tables:
       type: string
     - name: type
       type: mapping_value
-    - name: area
-      type: webmerc_area
+    - key: religion
+      name: religion
+      type: string
     - args:
         values:
         - land
@@ -274,7 +275,7 @@ tables:
         - university
         - golf_course
         - allotments
-        - common
+        - common  
         - pitch
         - sports_centre
         - garden
@@ -290,11 +291,12 @@ tables:
         - cemetery
         - forest
         - park
+        - dog_park
         - playground
         - footway
         - pedestrian
       name: z_order
-      type: enumerate
+      type: enumerate    
     mapping:
       aeroway:
       - runway
@@ -319,8 +321,6 @@ tables:
       barrier:
       - hedge
       highway:
-      - pedestrian
-      - footway
       - services
       - rest_area
       landuse:
@@ -366,6 +366,9 @@ tables:
       - picnic_table
       - track
       - dog_park
+      - swimming_pool
+      - water_park
+      - marina
       man_made:
       - pier
       military:
@@ -386,6 +389,8 @@ tables:
       - wood
       - sand
       - bare_orock
+      - mud
+      - marsh
       place:
       - island
       power: 
@@ -399,6 +404,8 @@ tables:
       - camp_site
       - caravan_site
       - picnic_site
+      railway:
+      - station
     type: polygon
   places:
     fields:

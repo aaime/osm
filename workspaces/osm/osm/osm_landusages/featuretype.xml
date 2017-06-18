@@ -1,14 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--195a4656:15bc41928c1:-7ea8</id>
-  <name>osm_waterways</name>
-  <nativeName>osm_waterways</nativeName>
+  <id>FeatureTypeInfoImpl--7b086ca4:15c4954cedf:-7fff</id>
+  <name>osm_landusages</name>
+  <nativeName>osm_landusages</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3700f40f:15a98f29168:-7ffd</id>
   </namespace>
-  <title>osm_waterways</title>
+  <title>osm_landusages</title>
   <keywords>
     <string>features</string>
-    <string>osm_waterways</string>
+    <string>osm_landusages</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / Pseudo-Mercator&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
@@ -33,17 +33,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3857&quot;]]</nativeCRS>
   <srs>EPSG:3857</srs>
   <nativeBoundingBox>
-    <minx>737304.0</minx>
-    <maxx>1848592.75</maxx>
-    <miny>4658153.0</miny>
-    <maxy>6176690.0</maxy>
+    <minx>-2.0E7</minx>
+    <maxx>2.0E7</maxx>
+    <miny>-2.0E7</miny>
+    <maxy>2.0E7</maxy>
     <crs class="projected">EPSG:3857</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>6.623314522424597</minx>
-    <maxx>16.606191214375375</maxx>
-    <miny>38.55517479324823</miny>
-    <maxy>48.41806547199174</maxy>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>

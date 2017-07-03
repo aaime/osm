@@ -44,12 +44,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -95,12 +95,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -146,12 +146,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -222,12 +222,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -304,12 +304,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -355,12 +355,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -431,12 +431,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -513,12 +513,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -570,7 +570,7 @@
             <sld:Stroke>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
@@ -610,12 +610,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -706,12 +706,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -755,12 +755,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -999,12 +999,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -1070,12 +1070,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -1147,12 +1147,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -1201,12 +1201,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -1256,12 +1256,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -1355,7 +1355,7 @@
             <sld:Stroke>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -1477,12 +1477,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -1560,12 +1560,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -2074,12 +2074,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -2219,12 +2219,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -2465,7 +2465,7 @@
             <sld:Stroke>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
@@ -3235,12 +3235,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -3392,12 +3392,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -3550,7 +3550,7 @@
             <sld:Stroke>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -3625,12 +3625,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -3660,12 +3660,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>14</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>7</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
@@ -3701,12 +3701,12 @@
                 <ogc:Function name="Interpolate">
                   <ogc:Function name="env">
                     <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                    <ogc:Literal>200000</ogc:Literal>
+                    <ogc:Literal>50000</ogc:Literal>
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>12</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>13</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>6</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -3859,7 +3859,7 @@
             <sld:Stroke>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -4310,6 +4310,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4361,6 +4363,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4412,6 +4416,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4488,6 +4494,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4570,6 +4578,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4621,6 +4631,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4697,6 +4709,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4779,6 +4793,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4833,7 +4849,7 @@
               <sld:CssParameter name="stroke">#b5d0d0</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
@@ -4878,6 +4894,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4927,6 +4945,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -4976,6 +4996,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5024,6 +5046,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5096,6 +5120,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5174,6 +5200,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5228,6 +5256,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5283,6 +5313,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5333,7 +5365,7 @@
               <sld:CssParameter name="stroke">#b5d0d0</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -5415,6 +5447,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5498,6 +5532,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5543,6 +5579,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5638,6 +5676,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5680,7 +5720,7 @@
               <sld:CssParameter name="stroke">#b5d0d0</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
               <sld:CssParameter name="stroke-dasharray">4.0 3.0</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
@@ -5756,6 +5796,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5798,6 +5840,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5835,7 +5879,7 @@
               <sld:CssParameter name="stroke">#b5d0d0</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -5876,6 +5920,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5911,6 +5957,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5953,6 +6001,8 @@
                   </ogc:Function>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>12</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>200000</ogc:Literal>
                   <ogc:Literal>2</ogc:Literal>
                 </ogc:Function>
@@ -5990,7 +6040,7 @@
               <sld:CssParameter name="stroke">#b5d0d0</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>

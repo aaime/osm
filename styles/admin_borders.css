@@ -2,8 +2,9 @@
 [type = 'administrative'] {
   [admin_level <= 4],[admin_level = 5 or admin_level = 6][@scale <= 400000],[admin_level = 7 or admin_level = 8][@scale <= 200000],[admin_level = 9 or admin_level = 10][@scale <= 100000] {
     stroke: #ac46ac;
-    composite-base: true;
-    composite: darken;
+    /* TODO: debug what's going on with composite here, it's affecting higher layers too */
+    /* composite-base: true; */
+    /* composite: darken; */
     stroke-opacity: 0.4;
 
     [admin_level = 2] {

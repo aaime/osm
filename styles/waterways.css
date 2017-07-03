@@ -11,7 +11,7 @@
   [intermittent = true][@scale > 50000],[type = 'wadi'][@scale > 50000] {
     [bridge = 'yes'] {
       stroke: white, #b5d0d0;
-      stroke-linewidth: [interpolate(env('wms_scale_denominator', 50000), 3000, 14, 50000, 7)], [interpolate(env('wms_scale_denominator', 200000), 3000, 12, 50000, 5, 200000, 2)];
+      stroke-width: [interpolate(env('wms_scale_denominator', 50000), 3000, 14, 50000, 7)], [interpolate(env('wms_scale_denominator', 200000), 3000, 12, 50000, 5, 200000, 2)];
       z-index: 0, 1;
     };
     stroke-dasharray: 4 3;
@@ -19,7 +19,7 @@
   };
   [bridge = 'yes'][@scale > 50000] {
     stroke: black, #b5d0d0;
-    stroke-linewidth: [interpolate(env('wms_scale_denominator', 50000), 3000, 13, 50000, 6)], [interpolate(env('wms_scale_denominator', 200000), 3000, 12, 50000, 5, 200000, 2)];
+    stroke-width: [interpolate(env('wms_scale_denominator', 50000), 3000, 13, 50000, 6)], [interpolate(env('wms_scale_denominator', 200000), 3000, 12, 50000, 5, 200000, 2)];
     z-index: 0, 1;
   };
   [tunnel in ('yes', 'culvert')] {
@@ -40,7 +40,7 @@
   };
   [bridge = 'yes'][@scale > 50000] {
     stroke: black, #b5d0d0;
-    stroke-linewidth: 4;
+    stroke-width: 4;
     z-index: 0, 1;
   };
   [tunnel in ('yes', 'culvert')] {

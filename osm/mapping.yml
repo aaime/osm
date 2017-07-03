@@ -177,6 +177,12 @@ tables:
       type: string
     - name: type
       type: mapping_value
+    - key: amenity
+      name: amenity
+      type: string
+    - key: aeroway
+      name: aeroway
+      type: string
     mapping:
       building:
       - __any__
@@ -246,6 +252,12 @@ tables:
     - key: religion
       name: religion
       type: string
+    - name: area
+      type: pseudoarea
+      key: null
+    - key: layer
+      name: layer
+      type: integer
     - args:
         values:
         - land
@@ -457,8 +469,13 @@ tables:
       type: id
     - name: geometry
       type: geometry
+    - name: class
+      type: mapping_key
     - name: type
       type: mapping_value
+    - key: highway
+      name: highway
+      type: string
     - key: name
       name: name
       type: string
@@ -483,8 +500,18 @@ tables:
     - key: service
       name: service
       type: string
-    - name: class
-      type: mapping_key
+    - key: horse
+      name: horse
+      type: string
+    - key: bicycle
+      name: bicycle
+      type: string
+    - key: construction
+      name: construction
+      type: string
+    - key: surface
+      name: surface
+      type: string
     filters:
       exclude_tags:
       - - area
@@ -528,6 +555,8 @@ tables:
           - unclassified
           - residential
           - raceway
+          - platform
+          - construction
           man_made:
           - pier
           - groyne

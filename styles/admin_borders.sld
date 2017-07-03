@@ -1965,9 +1965,7 @@
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
-        <sld:VendorOption name="composite">darken</sld:VendorOption>
         <sld:VendorOption name="ruleEvaluation">first</sld:VendorOption>
-        <sld:VendorOption name="composite-base">true</sld:VendorOption>
       </sld:FeatureTypeStyle>
     </sld:UserStyle>
   </sld:NamedLayer>

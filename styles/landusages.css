@@ -294,13 +294,6 @@
   }
 }
 
-
-
-
-[@sd < 100k] {
-  stroke: lightgray;
-}
-
 * {
   sort-by: 'z_order';
 }

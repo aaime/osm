@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shared Views</title>
+<link rel="stylesheet"
+	href="https://openlayers.org/en/v4.2.0/css/ol.css" type="text/css">
+<!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+<script
+	src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+<script src="https://openlayers.org/en/v4.2.0/build/ol.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+@media {
+	html, body, .container {
+		height: 100%;
+	}
+	.container {
+		display: table;
+		width: 100%;
+		height: 100%;
+		padding: 0 0 0 0;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.row {
+		height: 100%;
+		display: table-row;
+	}
+	.row .no-float {
+		display: table-cell;
+		float: none;
+		width: 50%;
+		height: 100%;
+	}
+	.map {
+		height: 90%;
+	}
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 no-float">
+				<h4>OpenStreetMap</h4>
+				<div id="osmMap" class="map"></div>
+			</div>
+			<div class="col-md-3 no-float">
+				<h4>GeoServer</h4>
+				<div id="gsMap" class="map"></div>
+        <div style="width=100%"><span style="width:50%" id="zoom"></span><span class="pull-right" id="scale"></span></div>
+			</div>
+		</div>
+	</div>
+	<script>
+        var osmLayer = new ol.layer.Tile({
+            source : new ol.source.OSM()
+        });
+
+        var gsLayer = new ol.layer.Tile({
+            source : new ol.source.TileWMS({
+                url : 'http://localhost:8080/geoserver/wms',
+                params : {
+                    'LAYERS' : 'osm',
+                    /* 'TILED' : true,
+                    'TILESORIGIN' : '-20037508.34,-20037508.34', */
+                    'random': Math.random()
+                },
+                serverType : 'geoserver'
+            })
+        })
+        
+        var view = new ol.View({
+            center : [ 0, 0 ],
+            zoom : 1
+        });
+
+        var map1 = new ol.Map({
+            target : 'osmMap',
+            layers : [ osmLayer ],
+            view : view
+        });
+        
+        var map2 = new ol.Map({
+            target : 'gsMap',
+            layers : [ gsLayer ],
+            view : view
+        });
+        
+        var updateResolution = function() {
+            var resolution = map2.getView().getResolution();
+            var units = map2.getView().getProjection().getUnits();
+            var dpi = 25.4 / 0.28;
+            var mpu = ol.proj.METERS_PER_UNIT[units];
+            var scale = resolution * mpu * 39.37 * dpi;
+            if (scale >= 9500 && scale <= 950000) {
+              scale = Math.round(scale / 1000) + "K";
+            } else if (scale >= 950000) {
+              scale = Math.round(scale / 1000000) + "M";
+            } else {
+              scale = Math.round(scale);
+            }
+            document.getElementById('scale').innerHTML = "Scale = 1 : " + scale;
+            var zoom = map2.getView().getZoom();
+            document.getElementById('zoom').innerHTML = "Zoom: " + zoom;
+            // force to fetch fresh tiles
+            gsLayer.getSource().updateParams({'random': Math.random()});
+          };
+        map2.getView().on('change:resolution', updateResolution);
+        updateResolution();
+    </script>
+</body>
+</html>

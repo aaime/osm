@@ -1,0 +1,326 @@
+* {
+  sort-by: 'z_order';
+}
+
+[class = 'highway' and type = 'motorway'][@sd < 25M] {
+  stroke: #e66e89;
+  stroke-width: [categorize(env('wms_scale_denominator'), 2, 400000, 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.8, 6000000, 0.5)];
+  [@sd < 200k] {
+    z-index: 0, 1;
+    stroke: #c24e6b, #e892a2;
+    stroke-width:  [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 6, 200000, 3.5)],
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.4, 25000, 6 - 1, 200000, 3.5 - 1) * 0.9] ;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    [@sd < 100k] {
+      stroke: #dc2a67, #e892a2;
+    }
+  }
+}
+
+[class = 'highway' and type = 'primary'][@sd < 3M] {
+  stroke: #f3c380;
+  stroke-width: [categorize(env('wms_scale_denominator'), 1.8, 800000, 1.4, 1500000, 1)];
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [@sd < 200k] {
+    z-index: 0, 1;
+    stroke: #c38a27, #f3c380;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 5, 100000, 3.5)],
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.4, 25000, 5 - 1, 100000, 3.5 - 1)];
+    [@sd < 100k] {
+      stroke: #a06b00, #fcd6a4;
+    }
+  };
+
+}
+
+[class = 'highway' and type = 'trunk'][@sd < 25M] {
+  stroke: #f5977a;
+  stroke-width: [categorize(env('wms_scale_denominator'), 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.6, 12500000, 0.4)];
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [@sd < 200k] {
+    z-index: 0, 1;
+    stroke: #cf6649, #f3c380;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 12500, 10, 50000, 6, 100000, 3.5)],
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 12500, 10 - 1.4, 50000, 5 - 1, 100000, 3.5 - 1)];
+    [@sd < 100k] {
+      stroke: #c84e2f, #f9b29c;
+    }
+  };
+
+}
+
+
+[class = 'highway' and type = 'secondary'][@sd < 1.5M] {
+  stroke: #bbb;
+  stroke-width: 0.8;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [@sd < 200k] {
+    z-index: 0, 1;
+    stroke-opacity: 0.4, 1;
+    stroke: #9eae23, #f7fabf;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 5, 100000, 3.5)],
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.5, 12500, 9 - 1.5, 25000, 5 - 1, 100000, 3.5 - 0.8)];
+    [@sd < 100k] {
+      stroke-opacity: 1, 1;
+      stroke: #707d05, #f7fabf;
+    }
+  };
+
+}
+
+[class = 'highway' and type = 'tertiary'][@sd < 800k] {
+  stroke: #bbb;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [@sd < 200k] {
+    z-index: 0, 1;
+    stroke: #8f8f8f, #FFFFFF;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 4, 100000, 2.5)],
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.5, 12500, 9 - 1.5, 25000, 4 - 1, 100000, 2.5 - 0.8)];
+
+  };
+}
+
+[class = 'highway' and type = 'road'][@sd < 800k] {
+  stroke-width: 1;
+  stroke: #bbb;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [@sd < 50k] {
+    stroke: #ddd;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2)],
+      [categorize(env('wms_scale_denominator'), 11 - 2, 1500, 8.5 - 2, 3000, 7 - 2, 6000, 3.5 - 1.2, 25000, 2 - 1.1)];
+  }
+}
+
+[class = 'highway' and type in ('residential', 'unclassified')][@sd < 200k] {
+  stroke: #bbb;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [type = 'residential'] {
+    stroke-width: 0.4;
+  };
+  [type = 'unclassified'] {
+    stroke-width: 1;
+  };
+  [@sd < 100k] {
+    z-index: 0, 1;
+    stroke: #bbb, white;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2.5)],
+      [categorize(env('wms_scale_denominator'), 17 - 2, 1500, 13 - 2, 3000 - 2, 12 - 2, 6000, 6 - 1.4, 12500, 5 - 1.4, 25000, 3 - 1.1, 50000, 2.5 - 1)]
+  };
+}
+
+[class = 'highway' and type = 'living_street'][@sd < 100k] {
+  z-index: 0, 1;
+  stroke: #bbb, #ededed;
+  stroke-width: 
+    [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2)],
+    [categorize(env('wms_scale_denominator'), 17 - 2, 1500, 13 - 2, 3000 - 2, 12 - 2, 6000, 6 - 1.4, 12500, 5 - 1.4, 25000, 3 - 1.1, 50000, 2 - 1)];
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+
+[class = 'highway' and type = 'service'][@sd < 100k] {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  [service not in ('parking_aisle', 'drive-through', 'driveway')] {
+    stroke: #bbb;
+  };
+  [service not in ('parking_aisle', 'drive-through', 'driveway')][@sd < 50k] {
+    z-index: 0, 1;
+    stroke: #bbb, white;
+    stroke-width: [categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2)],
+      [categorize(env('wms_scale_denominator'), 11 - 1.6, 1500, 8.5 - 1.6, 3000, 7 - 1.6, 6000, 3.5 - 1.6, 25000, 2 - 1.2)];
+  };
+  [service in ('parking_aisle', 'drive-through', 'driveway')][@sd < 12.5k] {
+    z-index: 0, 1;
+    stroke: #bbb, white;
+    stroke-width: [categorize(env('wms_scale_denominator'), 5.5, 1500, 4.75, 3000, 3.5, 6000, 2)],
+      [categorize(env('wms_scale_denominator'), 5.5 - 1.6, 1500, 4.75 - 1.6, 3000 - 1.6, 3.5 - 1.6, 6000, 2 - 1.2)];
+
+  }
+
+}
+
+[class = 'highway' and type = 'pedestrian'][@sd < 100k] {
+  z-index: 0,1;
+  stroke: #999, #dddde8;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 
+    [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2)],
+    [categorize(env('wms_scale_denominator'), 17 - 1.8, 1500, 13 - 1.8, 3000, 12 - 1.8, 6000, 6 - 1.2, 12500, 5 - 1.2, 25000, 3 - 1.1, 50000, 2 - 1)];
+}
+
+[class = 'highway' and type = 'raceway'][@sd < 200k] {
+  stroke: pink;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 
+    [categorize(env('wms_scale_denominator'), 24, 800, 12, 1500, 8, 12500, 6, 25000, 3, 50000, 2, 100000, 1.2)];
+
+}
+
+[class = 'highway' and type = 'platform'][@sd < 12.5k] {
+  stroke: grey, #bbbbbb;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 6, 4;
+}
+
+[class = 'highway' and type = 'steps'][@sd < 100k] {
+  stroke-dasharray: 2 1;
+  [access <> 'no'][@sd >= 25k] {
+    stroke: salmon;
+    stroke-width: 0.7;
+  };
+  [@sd < 25k] {
+    stroke: white, salmon;
+    [access = 'no'] {
+      stroke: white, #bbbbbb;
+    };
+    stroke-dasharray: 3 0, 1.6 1.4;
+    stroke-linecap: round, butt;
+    stroke-linejoin: round, butt;
+    stroke-width: 5, 3;
+    stroke-opacity: 0.4, 1;
+  }
+}
+
+
+[class = 'highway' and (type = 'bridleway' or (type = 'path' and horse = 'designated'))][@sd < 100k] {
+  stroke-dasharray: 4 2;
+  [access <> 'no'][@sd >= 25k] {
+    stroke: green;
+    stroke-width: 0; /** hairline **/
+  };
+  [@sd < 25k] {
+    stroke: white, green;
+    [access = 'no'] {
+      stroke: white, #aaddaa;
+    };
+    stroke-dasharray: 6 0, 4 2;
+    stroke-linecap: round, butt;
+    stroke-linejoin: round, butt;
+    stroke-width: 3, 1;
+    stroke-opacity: 0.4, 1;
+  }
+}
+
+
+[class = 'highway' and type = 'construction'][@sd < 200k] {
+  stroke-width: [categorize(env('wms_scale_denominator'), 8, 12500, 4, 50000, 2)], [categorize(env('wms_scale_denominator'), 7, 12500, 3.5, 50000, 2)];
+  stroke: #9cc, white;
+  stroke-dasharray: 6 0, [categorize(env('wms_scale_denominator'), '8 6', 12500, '6 4', 50000, '4 2')];
+  [construction in ('motorway', 'motorway_link')] {
+    stroke: #e892a2, white;
+  };
+  [construction in ('trunk', 'trunk_link')] {
+    stroke: #f9b29c, white;
+  };
+  [construction in ('primary', 'primary_link')] {
+    stroke: #fcd6a4, white;
+  };
+  [construction in ('secondary', 'secondary_link')] {
+    stroke: #f7fabf, white;
+  };
+  [construction in ('tertiary', 'tertiary', 'residential', 'unclassified', 'living_street')] {
+    stroke: #aaa;
+    [@sd > 100k] {
+      /* TODO: add a way to unset properties in GeoCSS */
+      stroke-opacity: 0;
+    };
+    [@sd <= 100k] {
+      stroke: #aaa, white;
+      stroke-width: 3, 2;
+      stroke-dasharray: 8 0, 5 3;
+    }
+  };
+  [construction in ('footway', 'cycleway', 'bridleway', 'path', 'track')] {
+    stroke: #aaa;
+    [@sd > 50k] {
+      /* TODO: add a way to unset properties in GeoCSS */
+      stroke-opacity: 0;
+    };
+    [@sd <= 50k] {
+      stroke: #aaa, #69f;
+      stroke-width: 3, 1.2;
+      stroke-dasharray: 8 0, 2 6;
+    }
+  };
+  [construction = 'service'] {
+    stroke: white;
+    [@sd > 100k] {
+      /* TODO: add a way to unset properties in GeoCSS */
+      stroke-opacity: 0;
+    };
+
+  }
+}
+
+
+[class = 'highway' and (type = 'footway' or (type = 'path' and horse <> 'designated' and bicycle <> 'designated'))][@sd < 100k] {
+  stroke: salmon;
+  stroke-dasharray: 1 3;
+  stroke-linecap: round;
+  stroke-join: round;
+  [access = 'no'][@sd >= 25k] {
+    stroke-opacity: 0;
+  };
+  [@sd < 25k] {
+    stroke: white, salmon;
+    [access = 'no'] {
+      stroke: white, #bbb;
+    };
+    stroke-dasharray: 4 0, 1 3;
+    stroke-width: 
+      [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
+      [categorize(env('wms_scale_denominator'),  1.3, 12500,  1)];
+    [int_surface = 'paved'] {
+      /** TODO: add an inherit keyword to inherit the value of the first dasharray without duplicating it? */
+      stroke-width: 
+        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
+        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
+      stroke-dasharray: 
+        4 0, 
+        [categorize(env('wms_scale_denominator'), '3 3', 3000, '3 3.5', 12500, '2 3.5')];
+    };
+    [int_surface = 'unpaved'] {
+      stroke: white, blue;
+      [access = 'no'] {
+        stroke: white, #9999ff;                    
+      };
+      stroke-width: 
+        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
+        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
+      stroke-dasharray: 
+        4 0, 
+        1 4;
+    };
+    [int_surface is null] {
+      stroke: white, blue;
+      [access = 'no'] {
+        stroke: white, #9999ff;                    
+      };
+      stroke-width: 
+        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
+        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
+      stroke-dasharray: 
+        4 0, 
+        1 4 2 3;
+    };
+
+  }
+}

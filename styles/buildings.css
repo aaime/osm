@@ -1,0 +1,22 @@
+/* @title gold polygon */
+[@sd < 100k] {
+  fill: darken(#d9d0c9, 4%);
+  [@sd < 25k] {
+    fill: #d9d0c9;
+    stroke: darken(#d9d0c9, 15%);
+  };
+  [aeroway = 'terminal'] {
+    fill: #cc99ff;
+    [@sd < 25k] {
+      stroke: darken(#cc99ff,15%);
+    };
+  };
+  [amenity = 'place_of_worship'],[building = 'train_station'] {
+    fill: darken(#d9d0c9, 20%);
+    [@sd < 25k] {
+      stroke-width: 0.75;
+      stroke:  darken(darken(#d9d0c9, 25%), 25%)
+    }
+
+  }
+}

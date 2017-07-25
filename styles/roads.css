@@ -1,34 +1,52 @@
 * {
   sort-by: 'z_order';
+  sort-by-group: "roadsGroup";
 }
 
-[class = 'highway' and type = 'motorway'][@sd < 25M] {
+[class = 'highway' and type in ('motorway', 'motorway_link')][@sd < 25M] {
   stroke: #e66e89;
-  stroke-width: [categorize(env('wms_scale_denominator'), 2, 400000, 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.8, 6000000, 0.5)];
+  stroke-width: categorize(env('wms_scale_denominator'), 2, 400000, 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.8, 6000000, 0.5);
+  stroke-linecap: butt, round;
   [@sd < 200k] {
     z-index: 0, 1;
     stroke: #c24e6b, #e892a2;
-    stroke-width:  [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 6, 200000, 3.5)],
-      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.4, 25000, 6 - 1, 200000, 3.5 - 1) * 0.9] ;
-    stroke-linejoin: round;
-    stroke-linecap: round;
     [@sd < 100k] {
       stroke: #dc2a67, #e892a2;
-    }
+    };
+    [type = 'motorway'] {
+      stroke-width:  
+        categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 6, 200000, 3.5),
+        [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.4, 25000, 6 - 1, 200000, 3.5 - 1) * 0.9];
+      [bridge = 1] {
+        stroke: black, #e892a2;
+      };
+    };
+    [type = 'motorway_link'] {
+      stroke-width:  
+        categorize(env('wms_scale_denominator'), 16, 1500, 13, 3000, 12, 6000, 7.8, 25000, 4, 200000, 1.5),
+        [categorize(env('wms_scale_denominator'), 16 - 2, 1500, 13 - 2, 3000, 12 - 2, 6000, 7.8 - 1.4, 25000, 4 - 1, 200000, 1.5 - 1) * 0.9];
+      [bridge = 1] {
+        stroke: black, #e892a2;
+      };
+    };
   }
 }
 
-[class = 'highway' and type = 'primary'][@sd < 3M] {
+[class = 'highway' and type in ('primary', 'primary_link')][@sd < 3M] {
   stroke: #f3c380;
-  stroke-width: [categorize(env('wms_scale_denominator'), 1.8, 800000, 1.4, 1500000, 1)];
+  stroke-width: categorize(env('wms_scale_denominator'), 1.8, 800000, 1.4, 1500000, 1);
   stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-linecap: butt, round;
   [@sd < 200k] {
     z-index: 0, 1;
     stroke: #c38a27, #f3c380;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 5, 100000, 3.5)],
+      categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 25000, 5, 100000, 3.5),
       [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.4, 25000, 5 - 1, 100000, 3.5 - 1)];
+    [bridge = 1] {
+      stroke: black, #fcd6a4;
+      stroke-linecap: butt, round;
+    };
     [@sd < 100k] {
       stroke: #a06b00, #fcd6a4;
     }
@@ -36,17 +54,21 @@
 
 }
 
-[class = 'highway' and type = 'trunk'][@sd < 25M] {
+[class = 'highway' and type in ('trunk', 'trunk_link')][@sd < 25M] {
   stroke: #f5977a;
-  stroke-width: [categorize(env('wms_scale_denominator'), 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.6, 12500000, 0.4)];
+  stroke-width: categorize(env('wms_scale_denominator'), 1.9, 800000, 1.4, 1500000, 1, 3000000, 0.6, 12500000, 0.4);
   stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-linecap: butt, round;
   [@sd < 200k] {
     z-index: 0, 1;
     stroke: #cf6649, #f3c380;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 12500, 10, 50000, 6, 100000, 3.5)],
+      categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 12500, 10, 50000, 6, 100000, 3.5),
       [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 12500, 10 - 1.4, 50000, 5 - 1, 100000, 3.5 - 1)];
+    [bridge = 1] {
+      stroke: black, #f3c380;
+      stroke-linecap: butt, round;
+    };
     [@sd < 100k] {
       stroke: #c84e2f, #f9b29c;
     }
@@ -55,36 +77,44 @@
 }
 
 
-[class = 'highway' and type = 'secondary'][@sd < 1.5M] {
+[class = 'highway' and type in ('secondary', 'secondary_link')][@sd < 1.5M] {
   stroke: #bbb;
   stroke-width: 0.8;
   stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-linecap: butt, round;
   [@sd < 200k] {
     z-index: 0, 1;
     stroke-opacity: 0.4, 1;
     stroke: #9eae23, #f7fabf;
-    stroke-width: 
-      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 5, 100000, 3.5)],
-      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.5, 12500, 9 - 1.5, 25000, 5 - 1, 100000, 3.5 - 0.8)];
     [@sd < 100k] {
       stroke-opacity: 1, 1;
       stroke: #707d05, #f7fabf;
-    }
+    };
+    stroke-width: 
+      categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 5, 100000, 3.5),
+      [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.5, 12500, 9 - 1.5, 25000, 5 - 1, 100000, 3.5 - 0.8)];
+    [bridge = 1] {
+      /* TODO: needs a way to override the first but not the second */
+      stroke: black, #f7fabf;
+    };
   };
 
 }
 
-[class = 'highway' and type = 'tertiary'][@sd < 800k] {
+[class = 'highway' and type in ('tertiary', 'tertiary_link')][@sd < 800k] {
   stroke: #bbb;
   stroke-linejoin: round;
-  stroke-linecap: round;
   [@sd < 200k] {
+    stroke-linecap: butt, round;
     z-index: 0, 1;
     stroke: #8f8f8f, #FFFFFF;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 4, 100000, 2.5)],
+      categorize(env('wms_scale_denominator'), 27, 1500, 21, 3000, 18, 6000, 10, 12500, 9, 25000, 4, 100000, 2.5),
       [categorize(env('wms_scale_denominator'), 27 - 2, 1500, 21 - 2, 3000, 18 - 2, 6000, 10 - 1.5, 12500, 9 - 1.5, 25000, 4 - 1, 100000, 2.5 - 0.8)];
+    [bridge = 1] {
+      /* TODO: needs a way to override the first but not the second */
+      stroke: black, #FFFFFF;
+    };
 
   };
 }
@@ -95,10 +125,16 @@
   stroke-linejoin: round;
   stroke-linecap: round;
   [@sd < 50k] {
-    stroke: #ddd;
+    stroke: #bbb, #ddd;
+    stroke-linecap: butt, round;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2)],
+      categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2),
       [categorize(env('wms_scale_denominator'), 11 - 2, 1500, 8.5 - 2, 3000, 7 - 2, 6000, 3.5 - 1.2, 25000, 2 - 1.1)];
+    [bridge = 1] {
+      /* TODO: needs a way to override the first but not the second */
+      stroke: black, #ddd;
+    };
+
   }
 }
 
@@ -114,10 +150,16 @@
   };
   [@sd < 100k] {
     z-index: 0, 1;
+    stroke-linecap: butt, round;
     stroke: #bbb, white;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2.5)],
-      [categorize(env('wms_scale_denominator'), 17 - 2, 1500, 13 - 2, 3000 - 2, 12 - 2, 6000, 6 - 1.4, 12500, 5 - 1.4, 25000, 3 - 1.1, 50000, 2.5 - 1)]
+      categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2.5),
+      [categorize(env('wms_scale_denominator'), 17 - 2, 1500, 13 - 2, 3000 - 2, 12 - 2, 6000, 6 - 1.4, 12500, 5 - 1.4, 25000, 3 - 1.1, 50000, 2.5 - 1)];
+    [bridge = 1] {
+      /* TODO: needs a way to override the first but not the second */
+      stroke: black, white;
+    };
+
   };
 }
 
@@ -125,10 +167,10 @@
   z-index: 0, 1;
   stroke: #bbb, #ededed;
   stroke-width: 
-    [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2)],
+    categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2),
     [categorize(env('wms_scale_denominator'), 17 - 2, 1500, 13 - 2, 3000 - 2, 12 - 2, 6000, 6 - 1.4, 12500, 5 - 1.4, 25000, 3 - 1.1, 50000, 2 - 1)];
   stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-linecap: butt, round;
 }
 
 
@@ -141,13 +183,17 @@
   [service not in ('parking_aisle', 'drive-through', 'driveway')][@sd < 50k] {
     z-index: 0, 1;
     stroke: #bbb, white;
-    stroke-width: [categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2)],
+    stroke-linecap: butt, round;
+    stroke-width: 
+      categorize(env('wms_scale_denominator'), 11, 1500, 8.5, 3000, 7, 6000, 3.5, 25000, 2),
       [categorize(env('wms_scale_denominator'), 11 - 1.6, 1500, 8.5 - 1.6, 3000, 7 - 1.6, 6000, 3.5 - 1.6, 25000, 2 - 1.2)];
   };
   [service in ('parking_aisle', 'drive-through', 'driveway')][@sd < 12.5k] {
     z-index: 0, 1;
     stroke: #bbb, white;
-    stroke-width: [categorize(env('wms_scale_denominator'), 5.5, 1500, 4.75, 3000, 3.5, 6000, 2)],
+    stroke-linecap: butt, round;
+    stroke-width: 
+      categorize(env('wms_scale_denominator'), 5.5, 1500, 4.75, 3000, 3.5, 6000, 2),
       [categorize(env('wms_scale_denominator'), 5.5 - 1.6, 1500, 4.75 - 1.6, 3000 - 1.6, 3.5 - 1.6, 6000, 2 - 1.2)];
 
   }
@@ -158,9 +204,9 @@
   z-index: 0,1;
   stroke: #999, #dddde8;
   stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-linecap: butt, round;
   stroke-width: 
-    [categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2)],
+    categorize(env('wms_scale_denominator'), 17, 1500, 13, 3000, 12, 6000, 6, 12500, 5, 25000, 3, 50000, 2),
     [categorize(env('wms_scale_denominator'), 17 - 1.8, 1500, 13 - 1.8, 3000, 12 - 1.8, 6000, 6 - 1.2, 12500, 5 - 1.2, 25000, 3 - 1.1, 50000, 2 - 1)];
 }
 
@@ -169,7 +215,7 @@
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-width: 
-    [categorize(env('wms_scale_denominator'), 24, 800, 12, 1500, 8, 12500, 6, 25000, 3, 50000, 2, 100000, 1.2)];
+    categorize(env('wms_scale_denominator'), 24, 800, 12, 1500, 8, 12500, 6, 25000, 3, 50000, 2, 100000, 1.2);
 
 }
 
@@ -221,7 +267,10 @@
 
 
 [class = 'highway' and type = 'construction'][@sd < 200k] {
-  stroke-width: [categorize(env('wms_scale_denominator'), 8, 12500, 4, 50000, 2)], [categorize(env('wms_scale_denominator'), 7, 12500, 3.5, 50000, 2)];
+  stroke-width: 
+    categorize(env('wms_scale_denominator'), 8, 12500, 4, 50000, 2), 
+    categorize(env('wms_scale_denominator'), 7, 12500, 3.5, 50000, 2);
+  stroke-linecap: butt, round;
   stroke: #9cc, white;
   stroke-dasharray: 6 0, [categorize(env('wms_scale_denominator'), '8 6', 12500, '6 4', 50000, '4 2')];
   [construction in ('motorway', 'motorway_link')] {
@@ -285,42 +334,248 @@
       stroke: white, #bbb;
     };
     stroke-dasharray: 4 0, 1 3;
+    stroke-opacity: 0.4, 1;
+    stroke-linecap: butt, round;
     stroke-width: 
-      [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
-      [categorize(env('wms_scale_denominator'),  1.3, 12500,  1)];
-    [int_surface = 'paved'] {
-      /** TODO: add an inherit keyword to inherit the value of the first dasharray without duplicating it? */
-      stroke-width: 
-        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
-        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
-      stroke-dasharray: 
-        4 0, 
-        [categorize(env('wms_scale_denominator'), '3 3', 3000, '3 3.5', 12500, '2 3.5')];
-    };
-    [int_surface = 'unpaved'] {
+      categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+      categorize(env('wms_scale_denominator'),  1.3, 12500,  1);
+    [surface in ('paved', 'asphalt', 'cobblestone', 'cobblestone:flattened', 'sett', 'concrete', 'concrete:lanes',
+      'concrete:plates', 'paving_stones', 'metal', 'wood')] {
+        /** TODO: add an inherit keyword to inherit the value of the first dasharray without duplicating it? */
+        stroke-width: 
+          categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+          categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9);
+        stroke-dasharray: 
+          4 0, 
+          [categorize(env('wms_scale_denominator'), '3 3', 3000, '3 3.5', 12500, '2 3.5')];
+      };
+    [surface in ('unpaved', 'compacted', 'dirt', 'earth', 'fine_gravel', 'grass', 
+      'grass_paver', 'gravel', 'ground', 'mud', 'pebblestone', 'salt', 'sand', 'woodchips', 'clay')] {
+        stroke: white, blue;
+        [access = 'no'] {
+          stroke: white, #9999ff;                    
+        };
+        stroke-width: 
+          categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+          categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9);
+        stroke-dasharray: 
+          4 0, 
+          1 4;
+      };
+    [surface is null] {
       stroke: white, blue;
       [access = 'no'] {
         stroke: white, #9999ff;                    
       };
       stroke-width: 
-        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
-        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
-      stroke-dasharray: 
-        4 0, 
-        1 4;
-    };
-    [int_surface is null] {
-      stroke: white, blue;
-      [access = 'no'] {
-        stroke: white, #9999ff;                    
-      };
-      stroke-width: 
-        [categorize(env('wms_scale_denominator'),  2.3, 12500,  2)], 
-        [categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9)];
+        categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+        categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9);
       stroke-dasharray: 
         4 0, 
         1 4 2 3;
     };
 
+  }
+}
+
+[class = 'highway' and (type = 'cycleway' or (type = 'path' and bicycle = 'designated'))][@sd < 100k] {
+  stroke: blue;
+  stroke-dasharray: 1 3;
+  stroke-linecap: round;
+  stroke-join: round;
+  stroke-width: 0.2;
+  [access = 'no'][@sd >= 25k] {
+    stroke-opacity: 0;
+  };
+  [@sd < 25k] {
+    stroke: white, blue;
+    [access = 'no'] {
+      stroke: white, #bbb;
+    };
+    stroke-dasharray: 4 0, 1 3;
+    stroke-opacity: 0.4, 1;
+    stroke-width: 
+      categorize(env('wms_scale_denominator'),  2.9, 25000,  2.7), 
+      categorize(env('wms_scale_denominator'),  0.9, 25000, 0.7);
+    stroke-linecap: butt, round;
+    [surface in ('paved', 'asphalt', 'cobblestone', 'cobblestone:flattened', 'sett', 'concrete', 'concrete:lanes',
+      'concrete:plates', 'paving_stones', 'metal', 'wood')] {
+        /** TODO: add an inherit keyword to inherit the value of the first dasharray without duplicating it? */
+        stroke-dasharray: 
+          4 0, 
+          categorize(env('wms_scale_denominator'), '3 3', 3000, '3 3.5', 12500, '2 3.5');
+      };
+    [surface in ('unpaved', 'compacted', 'dirt', 'earth', 'fine_gravel', 'grass', 
+      'grass_paver', 'gravel', 'ground', 'mud', 'pebblestone', 'salt', 'sand', 'woodchips', 'clay')] {
+        stroke: white, blue;
+        [access = 'no'] {
+          stroke: white, #9999ff;                    
+        };
+        stroke-width: 
+          categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+          categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9);
+        stroke-dasharray: 
+          4 0, 
+          1 4;
+      };
+    [surface is null] {
+      stroke: white, blue;
+      [access = 'no'] {
+        stroke: white, #9999ff;                    
+      };
+      stroke-width: 
+        categorize(env('wms_scale_denominator'),  2.3, 12500,  2), 
+        categorize(env('wms_scale_denominator'),  1.3, 1500, 1, 3000, 0.9);
+      stroke-dasharray: 
+        4 0, 
+        1 4 2 3;
+    };
+
+  }
+}
+
+[class = 'highway' and type = 'track'][@sd < 100k] {
+  stroke: #996600;
+  stroke-dasharray: 5 4 2 4;
+  stroke-linecap: round;
+  stroke-join: round;
+  stroke-width: 0.5;
+  stroke-opacity: 0.8;
+  [access = 'no'][@sd >= 25k] {
+    stroke-opacity: 0;
+  };
+  [@sd < 25k] {
+    stroke-linecap: butt, round;
+    stroke: white, #996600;
+    stroke-dasharray: 5 0, 5 4 2 4;
+    stroke-opacity: 0.4, 1;
+    [access = 'no'] {
+      stroke: white, #e2c5bb;
+    };
+    stroke-width: 3.5, 1.5;
+    [tracktype = 'grade1'] {
+      stroke-dasharray: 100 0, 100 0;
+    };
+    [tracktype = 'grade2'] {
+      stroke-dasharray: 15 0, 11 4;
+    };
+    [tracktype = 'grade3'] {
+      stroke-dasharray: 10 0, 4 6;
+    };
+    [tracktype = 'grade4'] {
+      stroke-dasharray: 10 0, 2 8;
+    };
+
+  }
+}
+
+[class = 'railway' and type = 'rail'][@sd < 6M],
+[class = 'railway' and (type = 'preserved' and service in ('spur', 'siding', 'yard')) or
+(type = 'rail' and service in ('spur', 'siding', 'yard')) or
+(type = 'tram' and service in ('spur', 'siding', 'yard'))][@sd < 100k] {
+  stroke: #787878;
+  stroke-width: categorize(env('wms_scale_denominator'),  0.9, 200000, 0.8 ,3000000, 0.5);
+  stroke-linejoin: round;
+  [@sd < 100k] {
+    stroke: #707070, white;
+    stroke-linejoin: round;
+    stroke-width: 3, 1;
+    stroke-linecap: butt, round;
+    stroke-dasharray: 16 0, 8 8;
+    [(type = 'preserved' and service in ('spur', 'siding', 'yard')) or
+    (type = 'rail' and service in ('spur', 'siding', 'yard')) or
+    (type = 'tram' and service in ('spur', 'siding', 'yard'))] {
+      stroke: #aaa, white;
+      stroke-linejoin: round;
+      stroke-width: 2, 0.8;
+    }
+  }
+
+}
+
+[class = 'railway' and type in ('light_rail', 'funicular', 'narrow_gauge')][@sd < 3M] {
+  stroke: [categorize(env('wms_scale_denominator'), '#666666', 100000, '#aaaaaa', 800000, '#cccccc')];
+  stroke-width: categorize(env('wms_scale_denominator'),  2, 100000, 1);
+}
+
+[class = 'railway' and type in ('miniature')][@sd < 25k] {
+  stroke: #999;
+  stroke-width: 1.2, 3;
+  stroke-dasharray: 10 0, 1 10;
+}
+
+[class = 'railway' and type in ('tram')][@sd < 200k],
+[class = 'railway' and type in ('tram-service')][@sd < 25k] {
+  stroke: [categorize(env('wms_scale_denominator'),  '#444', 100000, '#6E6E6E')];
+  stroke-width: [categorize(env('wms_scale_denominator'), 2, 6000, 1.5, 25000, 1, 50000, 0.75)];
+  [type = 'tram-service'] {
+    stroke-width: categorize(env('wms_scale_denominator'), 2, 1500, 1.5, 3000, 1, 6000, 0.5);
+  }
+}
+
+[class = 'railway' and type in ('subway')][@sd < 200k] {
+  stroke: #999;
+  stroke-width: 2;
+}
+
+[class = 'railway' and type = 'preserved'][@sd < 200k] {
+  stroke: #aaa;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  [service in ('spur', 'siding', 'yard')] {
+    stroke-width: 1;
+  };
+  [@sd < 100k] {
+    stroke: #999, white;
+    stroke-width: 3, 1;
+    stroke-linecap: butt, round;
+    stroke-dasharray: 10 0, 0 1 8 1;
+    [service in ('spur', 'siding', 'yard')] {
+      stroke-width: 2, 0.8;
+    }
+  }
+}
+
+[class = 'railway' and type = 'monorail'][@sd < 50k] {
+  stroke: white, #777;
+  stroke-width: 4, 2;
+  stroke-opacity: 0.4, 1;
+  stroke-linecap: round;
+  stroke-linecap: butt, round;
+  stroke-dasharray: 5 0, 2 3;
+}
+
+[class = 'railway' and type = 'construction'][@sd < 100k] {
+  stroke: grey;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-dasharray: categorize(env('wms_scale_denominator'), '3 3', 25000, '2 3', 50000, '2 4');
+}
+
+[class = 'railway' and type = 'disused'][@sd < 25k] {
+  stroke: #aaa;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-dasharray: 2 4;
+}
+
+[class = 'railway' and type = 'platform'][@sd < 12.5k] {
+  stroke: grey, #bbb;
+  stroke-width: 6, 4;
+  stroke-linejoin: round;
+}
+
+[class = 'railway' and type = 'turntable'][@sd < 12.5k] {
+  stroke: #999;
+  stroke-width: 1.5;
+}
+
+[class = 'aeroway'][@sd < 400k] {
+  stroke: #bbc;
+  [type = 'runway'] {
+    stroke-width: categorize(env('wms_scale_denominator'), 24, 12500, 18, 25000, 12, 50000, 6, 100000, 4, 200000, 2);
+  };
+  [type = 'taxiway'] {
+    stroke-width: categorize(env('wms_scale_denominator'), 8, 12500, 6, 25000, 4, 50000, 2, 100000, 1);
   }
 }

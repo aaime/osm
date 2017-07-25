@@ -71,22 +71,6 @@ tables:
       boundary:
       - administrative
     type: linestring
-  aeroways:
-    fields:
-    - name: osm_id
-      type: id
-    - name: geometry
-      type: geometry
-    - key: name
-      name: name
-      type: string
-    - name: type
-      type: mapping_value
-    mapping:
-      aeroway:
-      - runway
-      - taxiway
-    type: linestring
   amenities:
     fields:
     - name: osm_id
@@ -96,18 +80,127 @@ tables:
     - key: name
       name: name
       type: string
+    - key: access
+      name: access
+      type: string
+    - key: religion
+      name: religion
+      type: string
+    - key: denomination
+      name: denomination
+      type: string
+    - key: power_source
+      name: power_source
+      type: string
+    - key: ele
+      name: score
+      type: integer
     - name: type
       type: mapping_value
     mapping:
+      aeroway:
+      - helipad
+      - aerodrome
+      tourism:
+      - artwork
+      - alpine_hut
+      - camp_site
+      - caravan_site
+      - chalet
+      - wilderness_hut
+      - guest_house
+      - hostel
+      - hotel
+      - motel
+      - information
+      - museum
+      - viewpoint
+      - picnic_site
       amenity:
-      - university
-      - school
-      - library
+      - shelter
+      - atm
+      - bank
+      - bar
+      - bicycle_rental
+      - bus_station
+      - cafe
+      - car_rental
+      - car_wash
+      - cinema
+      - clinic
+      - community_centre
+      - fire_station
+      - fountain
       - fuel
       - hospital
-      - fire_station
-      - police
+      - ice_cream
+      - embassy
+      - library
+      - courthouse
       - townhall
+      - parking
+      - bicycle_parking
+      - motorcycle_parking
+      - pharmacy
+      - doctors
+      - dentist
+      - place_of_worship
+      - police
+      - post_box
+      - post_office
+      - pub
+      - biergarten
+      - recycling
+      - restaurant
+      - food_court
+      - fast_food
+      - telephone
+      - emergency_phone
+      - taxi
+      - theatre
+      - toilets
+      - drinking_water
+      - prison
+      - hunting_stand
+      - nightclub
+      - veterinary
+      - social_facility
+      - charging_station   
+      shop:
+      - __any__
+      leisure:
+      - water_park
+      - playground
+      - miniature_golf
+      - golf_course
+      - picnic_table
+      - slipway
+      - dog_park
+      man_made:
+      - mast
+      - water_tower
+      - lighthouse
+      - windmill
+      - cross
+      - obelisk
+      natural:
+      - peak
+      - volcano
+      - saddle
+      - spring
+      - cave_entrance
+      historic:
+      - memorial
+      - monument
+      - archaeological_site
+      - wayside_cross
+      highway:
+      - bus_stop
+      - elevator
+      - traffic_signals
+      - ford
+      power:
+      - generator
     type: point
   barrierpoints:
     fields:
@@ -182,6 +275,9 @@ tables:
       type: string
     - key: aeroway
       name: aeroway
+      type: string
+    - key: building
+      name: building
       type: string
     mapping:
       building:
@@ -492,8 +588,8 @@ tables:
       name: ref
       type: string
     - key: layer
-      name: z_order
-      type: wayzorder
+      name: layer
+      type: integer
     - key: access
       name: access
       type: string
@@ -512,16 +608,79 @@ tables:
     - key: surface
       name: surface
       type: string
+    - key: tracktype
+      name: tracktype
+      type: string
+      
+              ('railway_rail', 440),
+              ('railway_INT-preserved-ssy', 430),
+              ('railway_INT-spur-siding-yard', 430),
+              ('railway_subway', 420),
+              ('railway_narrow_gauge', 420),
+              ('railway_light_rail', 420),
+              ('railway_preserved', 420),
+              ('railway_funicular', 420),
+              ('railway_monorail', 420),
+              ('railway_miniature', 420),
+              ('railway_turntable', 420),
+              ('railway_tram', 410),
+              ('railway_tram-service', 405),
+              ('railway_disused', 400),
+              ('railway_construction', 400),
+              ('highway_motorway', 380),
+              ('highway_trunk', 370),
+              ('highway_primary', 360),
+              ('highway_secondary', 350),
+              ('highway_tertiary', 340),
+              ('highway_residential', 330),
+              ('highway_unclassified', 330),
+              ('highway_road', 330),
+              ('highway_living_street', 320),
+              ('highway_pedestrian', 310),
+              ('highway_raceway', 300),
+              ('highway_motorway_link', 240),
+              ('highway_trunk_link', 230),
+              ('highway_primary_link', 220),
+              ('highway_secondary_link', 210),
+              ('highway_tertiary_link', 200),
+              ('highway_service', 150),
+              ('highway_track', 110),
+              ('highway_path', 100),
+              ('highway_footway', 100),
+              ('highway_bridleway', 100),
+              ('highway_cycleway', 100),
+              ('highway_steps', 100),
+              ('highway_platform', 90),
+              ('railway_platform', 90),
+              ('aeroway_runway', 60),
+              ('aeroway_taxiway', 50),
+              ('highway_construction', 10)
+       
+      
+      
     filters:
       exclude_tags:
       - - area
         - 'yes'
     mappings:
+      aeroway:
+        mapping:
+          aeroway:
+            - runway
+            - taxiway
       railway:
         mapping:
           railway:
           - rail
           - tram
+          - tram-service
+
+      railway:
+        mapping:
+          railway:
+          - rail
+          - tram
+          - tram-service
           - light_rail
           - subway
           - narrow_gauge
@@ -529,6 +688,10 @@ tables:
           - funicular
           - monorail
           - disused
+          - miniature
+          - construction
+          - platform
+          - turntable
       roads:
         mapping:
           highway:

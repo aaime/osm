@@ -289,6 +289,7 @@
                   <ogc:Literal>0.15</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
         </sld:Rule>
@@ -425,6 +426,7 @@
                   <ogc:Literal>0.15</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
             </sld:Stroke>
           </sld:PolygonSymbolizer>
         </sld:Rule>

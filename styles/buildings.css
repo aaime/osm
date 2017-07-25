@@ -1,6 +1,7 @@
 /* @title gold polygon */
 [@sd < 100k] {
   fill: darken(#d9d0c9, 4%);
+  stroke-width: 0.5;
   [@sd < 25k] {
     fill: #d9d0c9;
     stroke: darken(#d9d0c9, 15%);

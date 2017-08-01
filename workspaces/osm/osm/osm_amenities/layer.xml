@@ -1,0 +1,15 @@
+<layer>
+  <name>osm_amenities</name>
+  <id>LayerInfoImpl-1d358fdb:15d9cd45627:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1d358fdb:15d9cd45627:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1d358fdb:15d9cd45627:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

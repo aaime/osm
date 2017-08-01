@@ -1,0 +1,876 @@
+[@sd < 200k] {
+  mark-size: 14;
+}
+
+[type = 'alpine_hut'][@sd < 100k] {
+  mark: url('symbols/alpinehut.p.16.png');
+}
+
+[type = 'wilderness_hut'][@sd < 100k],
+[type = 'shelter'][@sd < 12.5k] {
+  mark: symbol('file://symbols/shelter.svg');
+  [type = 'wilderness_hut'] {
+    mark: symbol('file://symbols/wilderness_hut.svg');
+  };
+  :mark { fill: #0092da };
+}
+
+[type = 'atm'][@sd < 6k] {
+  mark: symbol('file://symbols/atm.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'bank'][@sd < 6k] {
+  mark: symbol('file://symbols/bank.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'bar'][@sd < 6k] {
+  mark: symbol('file://symbols/bar.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'bicycle_rental'][@sd < 6k] {
+  mark: symbol('file://symbols/rental_bicycle.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'bus_stop'] {
+  :mark { fill: #0092da };
+  [@sd < 12.5k] {
+    mark: symbol(square);
+    mark-size: 6;  
+  };
+  [@sd < 6k] {
+    mark: symbol('file://symbols/bus_stop.12.svg');
+    mark-size: 12;
+  };  
+
+}
+
+
+[type = 'elevator'][@sd < 3k] {
+  [access is null],
+  [access = 'yes'] {
+    mark: symbol('file://symbols/elevator.12.svg');
+    :mark { fill: #0092da };
+  }
+}
+
+[type = 'bus_station'][@sd < 12.5k] {
+  mark: url('symbols/bus_station.n.16.png');
+}
+
+[type = 'taxi'][@sd < 6k] {
+  mark: symbol('file://symbols/taxi.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'traffic_signals'][@sd < 6k] {
+  mark: symbol('file://symbols/traffic_light.16.svg');
+  :mark { fill: #0a0a0a };
+}
+
+[type = 'cafe'][@sd < 6k] {
+  mark: symbol('file://symbols/cafe.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'artwork'][@sd < 6k] {
+  mark: symbol('file://symbols/artwork.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'camp_site'][@sd < 12.5k] {
+  mark: symbol('file://symbols/camping.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'ford'][@sd < 12.5k] {
+  mark: symbol('file://symbols/ford.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'caravan_site'][@sd < 12.5k] {
+  mark: symbol('file://symbols/caravan_park.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'car_rental'][@sd < 6k] {
+  mark: symbol('file://symbols/rental_car.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'car_wash'][@sd < 6k] {
+  mark: symbol('file://symbols/car_wash.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'chalet'][@sd < 6k] {
+  mark: url('symbols/chalet.p.16.png');
+}
+
+[type = 'cinema'][@sd < 12.5k] {
+  mark: symbol('file://symbols/cinema.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'nightclub'][@sd < 6k] {
+  mark: symbol('file://symbols/nightclub.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'fire_station'][@sd < 12.5k] {
+  mark: symbol('file://symbols/firestation.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'fountain'] {
+  mark: symbol(circle), symbol(circle);
+  :nth-mark(1) { fill: #b5d0d0 };
+  :nth-mark(2) { fill: #576ddf };
+  mark-size: 10, 3;
+  [@sd < 3k] {
+    mark: symbol('file://symbols/fountain.svg');
+    :mark { fill: #576ddf; };
+  }
+}
+
+[type = 'charging_station'][@sd < 6k] {
+  mark: symbol('file://symbols/charging_station.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'fuel'][@sd < 6k] {
+  mark: symbol('file://symbols/fuel.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'guest_house'][@sd < 6k] {
+  mark: url('symbols/guest_house.p.16.png');
+}
+
+[type = 'hospital'][@sd < 25k] {
+  mark: symbol('file://symbols/hospital.svg');
+  :mark { fill: #da0092 };
+}
+
+[type = 'hostel'][@sd < 6k] {
+  mark: symbol('file://symbols/hostel.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'hotel'][@sd < 6k] {
+  mark: symbol('file://symbols/hotel.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'motel'][@sd < 6k] {
+  mark: symbol('file://symbols/motel.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'ice_cream'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/ice_cream.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'information'][@sd < 6k] {
+  mark: symbol('file://symbols/information.12.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'embassy'][@sd < 6k] {
+  mark: symbol('file://symbols/embassy.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'library'][@sd < 12.5k] {
+  mark: symbol('file://symbols/library.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'courthouse'][@sd < 12.5k] {
+  mark: symbol('file://symbols/courthouse.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'community_centre'][@sd < 6k] {
+  mark: symbol('file://symbols/community_centre.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'social_facility'][@sd < 6k] {
+  mark: symbol('file://symbols/social_facility.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'townhall'][@sd < 12.5k] {
+  mark: symbol('file://symbols/town_hall.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'man_made_mast'][@sd < 6k] {
+  mark: symbol('file://symbols/communications.svg');
+  :mark { fill: #555 };
+}
+
+[type = 'museum'][@sd < 12.5k] {
+  mark: symbol('file://symbols/museum.svg');
+  :mark { fill: #734a08 };
+}
+
+/**
+This is for landuse
+[type = 'parking'][way_pixels > 900],
+[type = 'bicycle_parking'][way_pixels > 900],
+[type = 'motorcycle_parking'][way_pixels > 900] {
+  [type = 'parking'] {
+    mark: symbol('file://symbols/parking.svg');
+  };
+  [type = 'bicycle_parking'] {
+    mark: symbol('file://symbols/bicycle_parking.svg');
+  };
+  [type = 'motorcycle_parking'] {
+    mark: symbol('file://symbols/motorcycle_parking.svg');
+  };
+  :mark { fill: #0092da };
+  [access <> ''][access <> 'permissive'][access <> 'yes'] {
+    :mark { fill-opacity: 0.33 };
+  }
+}
+*/
+
+[type = 'pharmacy'][@sd < 6k] {
+  mark: symbol('file://symbols/pharmacy.svg');
+  :mark { fill: #da0092 };
+}
+
+[type = 'clinic'][@sd < 12.5k],
+[type = 'doctors'][@sd < 6k] {
+  mark: symbol('file://symbols/doctors.svg');
+  :mark { fill: #da0092 };
+}
+
+[type = 'dentist'][@sd < 6k] {
+  mark: symbol('file://symbols/dentist.svg');
+  :mark { fill: #da0092 };
+}
+
+[type = 'veterinary'][@sd < 6k] {
+  mark: symbol('file://symbols/veterinary.svg');
+  :mark { fill: #da0092 };
+}
+
+
+/*
+TODO: this causes performance issues, figure out why
+[type = 'place_of_worship'][@sd < 12.5k] {
+mark: symbol('file://symbols/place_of_worship.svg');
+:mark { fill: #000000 };
+[religion = 'christian'] {
+mark: symbol('file://symbols/christian.svg');
+[denomination = 'jehovahs_witness']{
+mark: symbol('file://symbols/place_of_worship.svg');
+}
+}
+[religion = 'muslim'] {
+mark: symbol('file://symbols/muslim.svg');
+}
+[religion = 'sikh'] {
+mark: symbol('file://symbols/sikhist.svg');
+}
+[religion = 'jewish'] {
+mark: symbol('file://symbols/jewish.svg');
+}
+[religion = 'hindu'] {
+mark: symbol('file://symbols/hinduist.svg');
+}
+[religion = 'buddhist'] {
+mark: symbol('file://symbols/buddhist.svg');
+}
+[religion = 'shinto'] {
+mark: symbol('file://symbols/shintoist.svg');
+}
+[religion = 'taoist'] {
+mark: symbol('file://symbols/taoist.svg');
+}
+}
+*/
+
+[type = 'man_made_cross'][@sd < 6k],
+[type = 'historic_wayside_cross'][@sd < 6k] {
+  mark: symbol('file://symbols/christian.9.svg');
+  :mark { fill: #000000 };
+}
+
+[type = 'police'][@sd < 12.5k] {
+  mark: symbol('file://symbols/police.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'post_box'][@sd < 6k] {
+  mark: symbol('file://symbols/post_box.12.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'post_office'][@sd < 6k] {
+  mark: symbol('file://symbols/post_office.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'pub'][@sd < 6k] {
+  mark: symbol('file://symbols/pub.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'biergarten'][@sd < 6k] {
+  mark: symbol('file://symbols/biergarten.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'recycling'][@sd < 6k] {
+  mark: symbol('file://symbols/recycling.svg');
+  :mark { fill: #734a08 };
+  [access <> ''][access <> 'permissive'][access <> 'yes'] {
+    :mark { fill-opacity: 0.33 };
+  }
+}
+
+[type = 'restaurant'][@sd < 6k],
+[type = 'food_court'][@sd < 6k] {
+  mark: symbol('file://symbols/restaurant.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'fast_food'][@sd < 6k] {
+  mark: symbol('file://symbols/fast_food.svg'); 
+  mark-size: 10;
+  :mark { fill: #734a08 };
+}
+
+[type = 'telephone'][@sd < 6k] {
+  mark: symbol('file://symbols/telephone.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'emergency_phone'][@sd < 6k] {
+  mark: symbol('file://symbols/emergency_phone.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'theatre'][@sd < 12.5k] {
+  mark: symbol('file://symbols/theatre.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'toilets'][@sd < 6k] {
+  mark: symbol('file://symbols/toilets.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'drinking_water'][@sd < 6k] {
+  mark: symbol('file://symbols/drinking_water.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'prison'][@sd < 6k] {
+  mark: symbol('file://symbols/prison.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'viewpoint'][@sd < 12.5k] {
+  mark: symbol('file://symbols/viewpoint.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'man_made_water_tower'][@sd < 6k] {
+  mark: symbol('file://symbols/water_tower.svg');
+  :mark { fill: #555 };
+}
+
+[type = 'historic_memorial'][@sd < 6k] {
+  mark: symbol('file://symbols/memorial.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'man_made_obelisk'][@sd < 12.5k],
+[type = 'historic_monument'][@sd < 12.5k] {
+  mark: symbol('file://symbols/monument.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'historic_archaeological_site'][@sd < 12.5k] {
+  mark: symbol('file://symbols/archaeological_site.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'other'][@sd < 6k] {
+  :mark { fill:  #ac39ac };
+  mark-size: 6;
+
+}
+
+[type = 'supermarket'][@sd < 12.5k] {
+  mark: symbol('file://symbols/shop/supermarket.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'art'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/art.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'bag'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/bag.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'bakery'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/bakery.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'beauty'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/beauty.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'beverages'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/beverages.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'books'][@sd < 6k] {
+  mark: symbol('file://symbols/library.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'butcher'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/butcher.png');
+}
+
+[type = 'chemist'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/chemist.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'clothes'],
+[type = 'fashion'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/clothes.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'coffee'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/coffee.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'computer'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/computer.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'convenience'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/convenience.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'confectionery'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/confectionery.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'copyshop'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/copyshop.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'cosmetics'],
+[type = 'perfumery'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/perfumery.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'deli'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/deli.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'department_store'][@sd < 12.5k] {
+  mark: symbol('file://symbols/shop/department_store.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'doityourself'],
+[type = 'hardware'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/diy.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'dry_cleaning'],
+[type = 'laundry'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/laundry.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'fishmonger'],
+[type = 'seafood'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/seafood.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'florist'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/florist.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'garden_centre'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/garden_centre.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'greengrocer'],
+[type = 'farm'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/greengrocer.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'hairdresser'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/hairdresser.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'hifi'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/hifi.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'ice_cream'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/ice_cream.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'car'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/car.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'car_parts'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/car_parts.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'car_repair'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/car_repair.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'bicycle'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/bicycle.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'pet'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/pet.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'photo'],
+[type = 'photo_studio'],
+[type = 'photography'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/photo.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'shoes'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/shoes.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'gift'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/gift.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'electronics'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/electronics.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'alcohol'],
+[type = 'wine'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/alcohol.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'optician'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/optician.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'outdoor'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/outdoor.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'furniture'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/furniture.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'mobile_phone'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/mobile_phone.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'motorcycle'][@sd < 6k] {
+  mark: symbol('file://symbols/motorcycle.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'musical_instrument'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/musical_instrument.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'kiosk'],
+[type = 'newsagent'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/newsagent.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'jewelry'],
+[type = 'jewellery'] {
+  [@sd < 6k] {
+    mark: symbol('file://symbols/shop/jewelry.svg');
+    :mark { fill:  #ac39ac };
+  }
+}
+
+[type = 'toys'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/toys.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'travel_agency'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/travel_agency.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'sports'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/sports.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'stationery'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/stationery.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'tobacco'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/tobacco.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'tea'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/tea.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'variety_store'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/variety_store.svg');
+  :mark { fill:  #ac39ac };
+}
+
+[type = 'leisure_water_park'][@sd < 6k] {
+  mark: symbol('file://symbols/water_park.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'leisure_dog_park'][@sd < 6k] {
+  mark: symbol('file://symbols/shop/pet.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'leisure_playground'][@sd < 6k] {
+  mark: symbol('file://symbols/playground.svg');
+  :mark { fill: #734a08 };
+  [access <> ''][access <> 'permissive'][access <> 'yes'] {
+    :mark { fill-opacity: 0.33 };
+  }
+}
+
+[type = 'leisure_miniature_golf'][@sd < 6k] {
+  mark: url('symbols/miniature_golf.p.20.png');
+}
+
+[type = 'leisure_golf_course'][@sd < 25k] {
+  mark: url('symbols/golf.p.20.png');
+}
+
+[type = 'picnic_site'][@sd < 12.5k] {
+  mark: symbol('file://symbols/picnic.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'leisure_picnic_table'][@sd < 6k] {
+  mark: symbol('file://symbols/picnic.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'leisure_slipway'][@sd < 6k] {
+  mark: url('symbols/transport_slipway.p.20.png');
+}
+
+[type = 'helipad'][@sd < 12.5k] {
+  mark: symbol('file://symbols/helipad.16.svg');
+  :mark { fill: #8461C4 };
+}
+
+[type = 'aerodrome'][@sd < 800k][@sd < 25k] {
+  mark: symbol('file://symbols/aerodrome.12.svg');
+  :mark { fill: #8461C4 };
+}
+
+[type = 'man_made_lighthouse'][@sd < 25k] {
+  mark: symbol('file://symbols/lighthouse.svg');
+  :mark { fill: #0092da };
+}
+
+[type = 'natural_peak'][@sd < 400k] {
+  mark: symbol('file://symbols/peak.svg');
+  :mark { fill: #d08f55 };
+}
+
+[type = 'natural_volcano'][@sd < 400k] {
+  mark: symbol('file://symbols/peak.svg');
+  :mark { fill: #d40000 };
+}
+
+[type = 'natural_saddle'][@sd < 25k] {
+  mark: symbol('file://symbols/saddle.svg');
+  :mark { fill: #d08f55 };
+}
+
+[type = 'natural_cave_entrance'][@sd < 25k] {
+  mark: symbol('file://symbols/cave.svg');
+}
+
+[type = 'natural_spring'][@sd < 50k] {
+  mark: symbol('file://symbols/spring.svg');
+}
+
+[type = 'power_generator']['generator:source' = 'wind'],
+[type = 'power_generator'][power_source = 'wind'] {
+  [@sd < 25k] {
+    mark: symbol('file://symbols/power_wind.svg');
+    :mark { fill: black };
+  }
+}
+
+[type = 'man_made_windmill'][@sd < 12.5k] {
+  mark: symbol('file://symbols/windmill.svg');
+  :mark { fill: #734a08 };
+}
+
+[type = 'hunting_stand'][@sd < 12.5k] {
+  mark: symbol('file://symbols/hunting_stand.svg');
+  :mark { fill: #555 };
+}
+
+
+/*
+.amenity-low-priority {
+[type = 'man_made_cross'][@sd < 12.5k],
+[type = 'historic_wayside_cross'][@sd < 12.5k] {
+mark: symbol('file://symbols/christian.9.svg');
+:mark { fill: #000000 };
+}
+
+[type = 'parking'][@sd < 6k],
+[type = 'bicycle_parking'][@sd < 6k],
+[type = 'motorcycle_parking'][@sd < 6k] {
+[type = 'parking'] {
+mark: symbol('file://symbols/parking.svg');
+}
+[type = 'bicycle_parking'] {
+mark: symbol('file://symbols/bicycle_parking.svg');
+}
+[type = 'motorcycle_parking'] {
+mark: symbol('file://symbols/motorcycle_parking.svg');
+}
+:mark { fill: #0092da };
+[access <> ''][access <> 'permissive'][access <> 'yes'] {
+:mark { fill-opacity: 0.33 };
+}
+}
+
+[type = 'railway_level_crossing'][@sd < 50k],
+[type = 'railway_crossing'][@sd < 25k] {
+mark: url('symbols/level_crossing.svg');
+[@sd < 12.5k] {
+mark: url('symbols/level_crossing2.svg');
+}
+}
+
+[type = 'mini_roundabout'][@sd < 12.5k] {
+mark: symbol('file://symbols/mini_roundabout.svg');
+}
+
+[type = 'barrier_gate'] {
+[@sd < 12.5k] {
+mark: symbol('file://symbols/gate.svg');
+}
+}
+
+[type = 'barrier_lift_gate'][@sd < 12.5k],
+[type = 'barrier_swing_gate'][@sd < 12.5k] {
+mark: symbol('file://symbols/liftgate.svg');
+:mark { fill: #3f3f3f };
+}
+
+[type = 'barrier_bollard'],
+[type = 'barrier_block'] {
+[@sd < 12.5k] {
+mark-size: 3;
+
+:mark { fill: #7d7c7c };
+
+[@sd < 3k] {
+mark-size: 4;
+}
+}
+}
+
+[type = 'bench'][@sd < 1500] {
+mark: symbol('file://symbols/bench.svg');
+:mark { fill: #734a08 };
+}
+
+[type = 'waste_basket'][@sd < 1500] {
+mark: symbol('file://symbols/waste_basket.10.svg');
+:mark { fill: #734a08 };
+}
+
+*/

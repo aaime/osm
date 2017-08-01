@@ -5586,301 +5586,6 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:And>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class</ogc:PropertyName>
-                    <ogc:Literal>railway</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>aeroway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class</ogc:PropertyName>
-                    <ogc:Literal>railway</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>aeroway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#707070</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>rail</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>class</ogc:PropertyName>
                 <ogc:Literal>highway</ogc:Literal>
@@ -6175,10 +5880,10 @@
                   <ogc:Literal>21</ogc:Literal>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>18</ogc:Literal>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Literal>10</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>6</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>3.5</ogc:Literal>
                 </ogc:Function>
@@ -6223,10 +5928,10 @@
                   <ogc:Literal>21</ogc:Literal>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>18</ogc:Literal>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Literal>10</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>6</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>3.5</ogc:Literal>
                 </ogc:Function>
@@ -7874,133 +7579,6 @@
             <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>tram</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
                 <ogc:Literal>highway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -8183,10 +7761,58 @@
                   <ogc:Literal>21</ogc:Literal>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>18</ogc:Literal>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Literal>10</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>6</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>3.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>highway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>trunk</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>trunk_link</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>bridge</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>27</ogc:Literal>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Literal>21</ogc:Literal>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Literal>18</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>10</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>3.5</ogc:Literal>
                 </ogc:Function>
@@ -9938,661 +9564,6 @@
         <sld:Rule>
           <ogc:Filter>
             <ogc:And>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class</ogc:PropertyName>
-                    <ogc:Literal>railway</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:Or>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>class</ogc:PropertyName>
-                  <ogc:Literal>railway</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>preserved</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>rail</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>tram</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-            </ogc:Or>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#707070</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:Or>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>class</ogc:PropertyName>
-                  <ogc:Literal>railway</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>preserved</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>rail</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-              <ogc:And>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>tram</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:Or>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>spur</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>siding</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>service</ogc:PropertyName>
-                    <ogc:Literal>yard</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                </ogc:Or>
-              </ogc:And>
-            </ogc:Or>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>0.9</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>0.8</ogc:Literal>
-                  <ogc:Literal>3000000</ogc:Literal>
-                  <ogc:Literal>0.5</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>rail</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>class</ogc:PropertyName>
-                    <ogc:Literal>railway</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-              <ogc:Or>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>preserved</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>rail</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-                <ogc:And>
-                  <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>type</ogc:PropertyName>
-                    <ogc:Literal>tram</ogc:Literal>
-                  </ogc:PropertyIsEqualTo>
-                  <ogc:Or>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>spur</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>siding</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                      <ogc:PropertyName>service</ogc:PropertyName>
-                      <ogc:Literal>yard</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                  </ogc:Or>
-                </ogc:And>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>spur</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>siding</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>service</ogc:PropertyName>
-                  <ogc:Literal>yard</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>class</ogc:PropertyName>
                 <ogc:Literal>aeroway</ogc:Literal>
@@ -10659,70 +9630,6 @@
                   <ogc:Literal>2</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>1</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>rail</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#707070</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>rail</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>6000000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>0.9</ogc:Literal>
-                  <ogc:Literal>200000</ogc:Literal>
-                  <ogc:Literal>0.8</ogc:Literal>
-                  <ogc:Literal>3000000</ogc:Literal>
-                  <ogc:Literal>0.5</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -11314,10 +10221,10 @@
                   <ogc:Literal>21</ogc:Literal>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>18</ogc:Literal>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Literal>10</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>6</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>3.5</ogc:Literal>
                 </ogc:Function>
@@ -11359,10 +10266,10 @@
                   <ogc:Literal>21</ogc:Literal>
                   <ogc:Literal>3000</ogc:Literal>
                   <ogc:Literal>18</ogc:Literal>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Literal>10</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>6</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>5</ogc:Literal>
                   <ogc:Literal>100000</ogc:Literal>
                   <ogc:Literal>3.5</ogc:Literal>
                 </ogc:Function>
@@ -12313,431 +11220,6 @@
         </sld:Rule>
         <sld:Rule>
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:Or>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>light_rail</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>funicular</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>type</ogc:PropertyName>
-                  <ogc:Literal>narrow_gauge</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-              </ogc:Or>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>3000000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>#666666</ogc:Literal>
-                  <ogc:Literal>100000</ogc:Literal>
-                  <ogc:Literal>#aaaaaa</ogc:Literal>
-                  <ogc:Literal>800000</ogc:Literal>
-                  <ogc:Literal>#cccccc</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>2</ogc:Literal>
-                  <ogc:Literal>100000</ogc:Literal>
-                  <ogc:Literal>1</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>miniature</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">1.2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">1.0 10.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>tram</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>#444</ogc:Literal>
-                  <ogc:Literal>100000</ogc:Literal>
-                  <ogc:Literal>#6E6E6E</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>2</ogc:Literal>
-                  <ogc:Literal>6000</ogc:Literal>
-                  <ogc:Literal>1.5</ogc:Literal>
-                  <ogc:Literal>25000</ogc:Literal>
-                  <ogc:Literal>1</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>0.75</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>tram-service</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>#444</ogc:Literal>
-                  <ogc:Literal>100000</ogc:Literal>
-                  <ogc:Literal>#6E6E6E</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>2</ogc:Literal>
-                  <ogc:Literal>1500</ogc:Literal>
-                  <ogc:Literal>1.5</ogc:Literal>
-                  <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>1</ogc:Literal>
-                  <ogc:Literal>6000</ogc:Literal>
-                  <ogc:Literal>0.5</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>tram</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>tram-service</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>#444</ogc:Literal>
-                  <ogc:Literal>100000</ogc:Literal>
-                  <ogc:Literal>#6E6E6E</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-              <sld:CssParameter name="stroke-width">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>2</ogc:Literal>
-                  <ogc:Literal>1500</ogc:Literal>
-                  <ogc:Literal>1.5</ogc:Literal>
-                  <ogc:Literal>3000</ogc:Literal>
-                  <ogc:Literal>1</ogc:Literal>
-                  <ogc:Literal>6000</ogc:Literal>
-                  <ogc:Literal>0.5</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>subway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>preserved</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>monorail</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
-              <sld:CssParameter name="stroke-opacity">0.4</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">5.0 0.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#777777</sld:CssParameter>
-              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">2.0 3.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>construction</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#808080</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">
-                <ogc:Function name="Categorize">
-                  <ogc:Function name="env">
-                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
-                  </ogc:Function>
-                  <ogc:Literal>3 3</ogc:Literal>
-                  <ogc:Literal>25000</ogc:Literal>
-                  <ogc:Literal>2 3</ogc:Literal>
-                  <ogc:Literal>50000</ogc:Literal>
-                  <ogc:Literal>2 4</ogc:Literal>
-                </ogc:Function>
-              </sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>disused</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
-              <sld:CssParameter name="stroke-dasharray">2.0 4.0</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>platform</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#808080</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">6</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#bbbbbb</sld:CssParameter>
-              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>class</ogc:PropertyName>
-                <ogc:Literal>railway</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>type</ogc:PropertyName>
-                <ogc:Literal>turntable</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
-          <sld:LineSymbolizer>
-            <sld:Stroke>
-              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
-              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
-            </sld:Stroke>
-          </sld:LineSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>class</ogc:PropertyName>
               <ogc:Literal>aeroway</ogc:Literal>
@@ -12750,7 +11232,6 @@
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
-        <sld:VendorOption name="sortByGroup">roadsGroup</sld:VendorOption>
         <sld:VendorOption name="ruleEvaluation">first</sld:VendorOption>
         <sld:VendorOption name="sortBy">z_order</sld:VendorOption>
       </sld:FeatureTypeStyle>
@@ -12760,6 +11241,43 @@
             <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
                 <ogc:Literal>highway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
@@ -13173,7 +11691,7 @@
           <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:CssParameter name="stroke">#f3c380</sld:CssParameter>
+              <sld:CssParameter name="stroke">#f9b29c</sld:CssParameter>
               <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
               <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
               <sld:CssParameter name="stroke-width">
@@ -13195,12 +11713,12 @@
                     <ogc:Literal>18</ogc:Literal>
                     <ogc:Literal>2</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>10</ogc:Literal>
                     <ogc:Literal>1.4</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>5</ogc:Literal>
                     <ogc:Literal>1</ogc:Literal>
@@ -13263,12 +11781,12 @@
                     <ogc:Literal>18</ogc:Literal>
                     <ogc:Literal>2</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>10</ogc:Literal>
                     <ogc:Literal>1.4</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>5</ogc:Literal>
                     <ogc:Literal>1</ogc:Literal>
@@ -13853,6 +12371,115 @@
             <ogc:And>
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
                 <ogc:Literal>highway</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
@@ -14112,12 +12739,80 @@
                     <ogc:Literal>18</ogc:Literal>
                     <ogc:Literal>2</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>10</ogc:Literal>
                     <ogc:Literal>1.4</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Sub>
+                    <ogc:Literal>5</ogc:Literal>
+                    <ogc:Literal>1</ogc:Literal>
+                  </ogc:Sub>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Sub>
+                    <ogc:Literal>3.5</ogc:Literal>
+                    <ogc:Literal>1</ogc:Literal>
+                  </ogc:Sub>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>highway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>trunk</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>trunk_link</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>bridge</ogc:PropertyName>
+                <ogc:Literal>1</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#f9b29c</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Sub>
+                    <ogc:Literal>27</ogc:Literal>
+                    <ogc:Literal>2</ogc:Literal>
+                  </ogc:Sub>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Sub>
+                    <ogc:Literal>21</ogc:Literal>
+                    <ogc:Literal>2</ogc:Literal>
+                  </ogc:Sub>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Sub>
+                    <ogc:Literal>18</ogc:Literal>
+                    <ogc:Literal>2</ogc:Literal>
+                  </ogc:Sub>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Sub>
+                    <ogc:Literal>10</ogc:Literal>
+                    <ogc:Literal>1.4</ogc:Literal>
+                  </ogc:Sub>
+                  <ogc:Literal>25000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>5</ogc:Literal>
                     <ogc:Literal>1</ogc:Literal>
@@ -14479,6 +13174,693 @@
                     <ogc:Literal>2</ogc:Literal>
                     <ogc:Literal>1.2</ogc:Literal>
                   </ogc:Sub>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#707070</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>0.9</ogc:Literal>
+                  <ogc:Literal>200000</ogc:Literal>
+                  <ogc:Literal>0.8</ogc:Literal>
+                  <ogc:Literal>3000000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#707070</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">16.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>6000000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>0.9</ogc:Literal>
+                  <ogc:Literal>200000</ogc:Literal>
+                  <ogc:Literal>0.8</ogc:Literal>
+                  <ogc:Literal>3000000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
                 </ogc:Function>
               </sld:CssParameter>
             </sld:Stroke>
@@ -15126,12 +14508,12 @@
                     <ogc:Literal>18</ogc:Literal>
                     <ogc:Literal>2</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>10</ogc:Literal>
                     <ogc:Literal>1.4</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>5</ogc:Literal>
                     <ogc:Literal>1</ogc:Literal>
@@ -15190,12 +14572,12 @@
                     <ogc:Literal>18</ogc:Literal>
                     <ogc:Literal>2</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>12500</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>10</ogc:Literal>
                     <ogc:Literal>1.4</ogc:Literal>
                   </ogc:Sub>
-                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
                   <ogc:Sub>
                     <ogc:Literal>5</ogc:Literal>
                     <ogc:Literal>1</ogc:Literal>
@@ -15750,7 +15132,1640 @@
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
-        <sld:VendorOption name="sortByGroup">roadsGroup</sld:VendorOption>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>light_rail</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>funicular</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>narrow_gauge</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>3000000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#666666</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#aaaaaa</ogc:Literal>
+                  <ogc:Literal>800000</ogc:Literal>
+                  <ogc:Literal>#cccccc</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>miniature</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>0.75</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram-service</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram-service</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>subway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">10.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>monorail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-opacity">0.4</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">5.0 0.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>construction</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#808080</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>3 3</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>2 3</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>2 4</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>disused</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">2.0 4.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>platform</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#808080</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">6</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>turntable</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:VendorOption name="ruleEvaluation">first</sld:VendorOption>
+        <sld:VendorOption name="sortBy">z_order</sld:VendorOption>
+      </sld:FeatureTypeStyle>
+      <sld:FeatureTypeStyle>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>0.9</ogc:Literal>
+                  <ogc:Literal>200000</ogc:Literal>
+                  <ogc:Literal>0.8</ogc:Literal>
+                  <ogc:Literal>3000000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>class</ogc:PropertyName>
+                    <ogc:Literal>railway</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:Or>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>preserved</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>rail</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+                <ogc:And>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>type</ogc:PropertyName>
+                    <ogc:Literal>tram</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                  <ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>spur</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>siding</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>service</ogc:PropertyName>
+                      <ogc:Literal>yard</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                </ogc:And>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>spur</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>siding</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>service</ogc:PropertyName>
+                  <ogc:Literal>yard</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">0.8</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">8.0 8.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>rail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>6000000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#787878</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>0.9</ogc:Literal>
+                  <ogc:Literal>200000</ogc:Literal>
+                  <ogc:Literal>0.8</ogc:Literal>
+                  <ogc:Literal>3000000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>light_rail</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>funicular</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>type</ogc:PropertyName>
+                  <ogc:Literal>narrow_gauge</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>3000000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#666666</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#aaaaaa</ogc:Literal>
+                  <ogc:Literal>800000</ogc:Literal>
+                  <ogc:Literal>#cccccc</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>miniature</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">1.0 10.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>0.75</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram-service</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>tram-service</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>#444</ogc:Literal>
+                  <ogc:Literal>100000</ogc:Literal>
+                  <ogc:Literal>#6E6E6E</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+              <sld:CssParameter name="stroke-width">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>2</ogc:Literal>
+                  <ogc:Literal>1500</ogc:Literal>
+                  <ogc:Literal>1.5</ogc:Literal>
+                  <ogc:Literal>3000</ogc:Literal>
+                  <ogc:Literal>1</ogc:Literal>
+                  <ogc:Literal>6000</ogc:Literal>
+                  <ogc:Literal>0.5</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>subway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">0.0 1.0 8.0 1.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>preserved</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>200000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>monorail</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#777777</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">2.0 3.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>construction</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#808080</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">
+                <ogc:Function name="Categorize">
+                  <ogc:Function name="env">
+                    <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>3 3</ogc:Literal>
+                  <ogc:Literal>25000</ogc:Literal>
+                  <ogc:Literal>2 3</ogc:Literal>
+                  <ogc:Literal>50000</ogc:Literal>
+                  <ogc:Literal>2 4</ogc:Literal>
+                </ogc:Function>
+              </sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>disused</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>25000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#aaaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">2</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">2.0 4.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>platform</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#bbbbbb</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">round</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">4</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:And>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>class</ogc:PropertyName>
+                <ogc:Literal>railway</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>type</ogc:PropertyName>
+                <ogc:Literal>turntable</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:And>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#999999</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+        </sld:Rule>
         <sld:VendorOption name="ruleEvaluation">first</sld:VendorOption>
         <sld:VendorOption name="sortBy">z_order</sld:VendorOption>
       </sld:FeatureTypeStyle>

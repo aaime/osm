@@ -48,8 +48,16 @@
     <published type="layer">
       <id>LayerInfoImpl--4e88ab2d:15cba2fcee0:-7ff9</id>
     </published>
+    <published type="layer">
+      <id>LayerInfoImpl-245ba36c:15d937f93b2:-7ffd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1d358fdb:15d9cd45627:-7ffe</id>
+    </published>
   </publishables>
   <styles>
+    <style/>
+    <style/>
     <style/>
     <style/>
     <style/>

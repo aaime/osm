@@ -39,7 +39,7 @@
 		height: 100%;
 	}
 	.map {
-		height: 90%;
+		height: 80%;
 	}
 }
 </style>
@@ -54,7 +54,8 @@
 			<div class="col-md-3 no-float">
 				<h4>GeoServer</h4>
 				<div id="gsMap" class="map"></div>
-        <div style="width=100%"><span style="width:50%" id="zoom"></span><span class="pull-right" id="scale"></span></div>
+        <div style="width=100%;"><span style="width:50%" id="zoom"></span><span class="pull-right" id="scale"></span></div>
+        <div id="info" style="height:20%">&nbsp;</div>
 			</div>
 		</div>
 	</div>
@@ -62,18 +63,20 @@
         var osmLayer = new ol.layer.Tile({
             source : new ol.source.OSM()
         });
+        
+        var wmsSource = new ol.source.TileWMS({
+            url : 'http://localhost:8080/geoserver/wms',
+            params : {
+                'LAYERS' : 'osm',
+                /* 'TILED' : true,
+                'TILESORIGIN' : '-20037508.34,-20037508.34', */
+                'random': Math.random()
+            },
+            serverType : 'geoserver'
+        });
 
         var gsLayer = new ol.layer.Tile({
-            source : new ol.source.TileWMS({
-                url : 'http://localhost:8080/geoserver/wms',
-                params : {
-                    'LAYERS' : 'osm',
-                    /* 'TILED' : true,
-                    'TILESORIGIN' : '-20037508.34,-20037508.34', */
-                    'random': Math.random()
-                },
-                serverType : 'geoserver'
-            })
+            source : wmsSource
         })
         
         var view = new ol.View({
@@ -92,6 +95,19 @@
             layers : [ gsLayer ],
             view : view
         });
+        
+        map2.on('singleclick', function(evt) {
+            document.getElementById('info').innerHTML = '';
+            var viewResolution = /** @type {number} */ (view.getResolution());
+            var url = wmsSource.getGetFeatureInfoUrl(
+                evt.coordinate, viewResolution, 'EPSG:3857',
+                {'INFO_FORMAT': 'text/html',
+                 'FEATURE_COUNT': 50});
+            if (url) {
+              document.getElementById('info').innerHTML =
+                  '<iframe seamless style="width:100%" src="' + url + '"></iframe>';
+            }
+          });
         
         var updateResolution = function() {
             var resolution = map2.getView().getResolution();

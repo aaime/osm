@@ -475,7 +475,7 @@
 [class = 'railway'] {
   z-index: 1, 2;
 
-  [class = 'railway' and type = 'rail'][@sd < 6M],
+  [class = 'railway' and type = 'rail' and service = ''][@sd < 6M],
   [class = 'railway' and (type = 'preserved' and service in ('spur', 'siding', 'yard')) or
   (type = 'rail' and service in ('spur', 'siding', 'yard')) or
   (type = 'tram' and service in ('spur', 'siding', 'yard'))][@sd < 100k] {

@@ -1,12 +1,12 @@
 <layer>
-  <name>osm_roads</name>
-  <id>LayerInfoImpl--4e88ab2d:15cba2fcee0:-7ff9</id>
+  <name>osm_waterareas</name>
+  <id>LayerInfoImpl-13cfe2a7:15db6f0417a:2a02</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--4e88ab2d:15cba2fcee0:-7ff8</id>
+    <id>StyleInfoImpl-631386fb:15abe1cc787:-7ffb</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--4e88ab2d:15cba2fcee0:-7ffa</id>
+    <id>FeatureTypeInfoImpl-13cfe2a7:15db6f0417a:2a01</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

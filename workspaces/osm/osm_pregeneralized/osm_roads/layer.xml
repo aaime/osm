@@ -1,12 +1,12 @@
 <layer>
-  <name>osm_landusages</name>
-  <id>LayerInfoImpl--7b086ca4:15c4954cedf:-7ffe</id>
+  <name>osm_roads</name>
+  <id>LayerInfoImpl-13cfe2a7:15db6ceb1bd:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--7b086ca4:15c4954cedf:-7ffc</id>
+    <id>StyleInfoImpl--4e88ab2d:15cba2fcee0:-7ff8</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--7b086ca4:15c4954cedf:-7fff</id>
+    <id>FeatureTypeInfoImpl-13cfe2a7:15db6ceb1bd:-7fff</id>
   </resource>
   <attribution>
     <logoWidth>0</logoWidth>

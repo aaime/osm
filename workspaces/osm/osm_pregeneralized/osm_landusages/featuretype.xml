@@ -1,14 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-631386fb:15abe1cc787:-7ffe</id>
-  <name>osm_waterareas</name>
-  <nativeName>osm_waterareas</nativeName>
+  <id>FeatureTypeInfoImpl-13cfe2a7:15db6f0417a:29fe</id>
+  <name>osm_landusages</name>
+  <nativeName>landusages</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3700f40f:15a98f29168:-7ffd</id>
   </namespace>
-  <title>osm_waterareas</title>
+  <title>osm_landusages</title>
   <keywords>
     <string>features</string>
-    <string>osm_waterareas</string>
+    <string>osm_landusages</string>
+    <string>pregeneralized)</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;WGS 84 / Pseudo-Mercator&quot;, 
   GEOGCS[&quot;WGS 84&quot;, 
@@ -20,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], 
     AXIS[&quot;Geodetic latitude&quot;, NORTH], 
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
-  PROJECTION[&quot;Popular Visualisation Pseudo Mercator&quot;], 
+  PROJECTION[&quot;Popular Visualisation Pseudo Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;1024&quot;]], 
   PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
   PARAMETER[&quot;central_meridian&quot;, 0.0], 
@@ -33,23 +34,24 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;3857&quot;]]</nativeCRS>
   <srs>EPSG:3857</srs>
   <nativeBoundingBox>
-    <minx>735958.5625</minx>
-    <maxx>2064984.125</maxx>
-    <miny>4384891.5</miny>
-    <maxy>5962866.5</maxy>
-    <crs class="projected">EPSG:3857</crs>
+    <minx>-2.0E7</minx>
+    <maxx>2.0E7</maxx>
+    <miny>-2.0E7</miny>
+    <maxy>2.0E7</maxy>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>6.61122825172382</minx>
-    <maxx>18.550068009516764</maxx>
-    <miny>36.610051622539004</miny>
-    <maxy>47.127232876070735</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl--3700f40f:15a98f29168:-7ffc</id>
+    <id>DataStoreInfoImpl-6baf4f7:15db6c3166d:-7fff</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

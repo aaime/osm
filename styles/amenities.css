@@ -125,7 +125,7 @@
   :mark { fill: #734a08 };
 }
 
-[type = 'fountain'] {
+[type = 'fountain'][@sd < 6k] {
   mark: symbol(circle), symbol(circle);
   :nth-mark(1) { fill: #b5d0d0 };
   :nth-mark(2) { fill: #576ddf };
@@ -760,11 +760,13 @@ mark: symbol('file://symbols/taoist.svg');
 
 [type = 'peak'][@sd < 400k] {
   mark: symbol('file://symbols/peak.svg');
+  mark-size: 8;
   :mark { fill: #d08f55 };
 }
 
 [type = 'volcano'][@sd < 400k] {
-  mark: symbol('file://symbols/peak.svg');
+  mark: symbol('file://symbols/peak.svg'); 
+  mark-size: 8;
   :mark { fill: #d40000 };
 }
 

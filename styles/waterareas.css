@@ -1,5 +1,5 @@
 /* @title Glacier */
-[type = 'glacier'][@scale < 12500000] {
+[type = 'glacier'][@sd < 12.5M] {
   fill: #ddecec;
   stroke: #9cf;
   [@scale < 800000] {
@@ -9,9 +9,9 @@
 }
 
 /* @title Docks, canals, basin, water, reservoir */
-[type in ('dock', 'canal')][@scale < 1500000],
-[type = 'basin'][@scale < 6000000],
-[type in ('water', 'reservoir', 'riverbank')][@scale < 12500000]
+[type in ('dock', 'canal')][@sd < 1.5M],
+[type = 'basin'][@sd < 6000000],
+[type in ('water', 'reservoir', 'riverbank')][@sd < 12.5M]
 {
   fill: #b5d0d0;
   stroke: #b5d0d0; /* compensating for lack of gamma control here*/

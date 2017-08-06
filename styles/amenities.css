@@ -210,7 +210,7 @@
   :mark { fill: #734a08 };
 }
 
-[type = 'man_made_mast'][@sd < 6k] {
+[type = 'mast'][@sd < 6k] {
   mark: symbol('file://symbols/communications.svg');
   :mark { fill: #555 };
 }
@@ -298,7 +298,7 @@ mark: symbol('file://symbols/taoist.svg');
 }
 */
 
-[type = 'man_made_cross'][@sd < 6k],
+[type = 'cross'][@sd < 6k],
 [type = 'historic_wayside_cross'][@sd < 6k] {
   mark: symbol('file://symbols/christian.9.svg');
   :mark { fill: #000000 };
@@ -384,7 +384,7 @@ mark: symbol('file://symbols/taoist.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'man_made_water_tower'][@sd < 6k] {
+[type = 'water_tower'][@sd < 6k] {
   mark: symbol('file://symbols/water_tower.svg');
   :mark { fill: #555 };
 }
@@ -394,7 +394,7 @@ mark: symbol('file://symbols/taoist.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'man_made_obelisk'][@sd < 12.5k],
+[type = 'obelisk'][@sd < 12.5k],
 [type = 'historic_monument'][@sd < 12.5k] {
   mark: symbol('file://symbols/monument.svg');
   :mark { fill: #734a08 };
@@ -703,17 +703,17 @@ mark: symbol('file://symbols/taoist.svg');
   :mark { fill:  #ac39ac };
 }
 
-[type = 'leisure_water_park'][@sd < 6k] {
+[type = 'water_park'][@sd < 6k] {
   mark: symbol('file://symbols/water_park.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'leisure_dog_park'][@sd < 6k] {
+[type = 'dog_park'][@sd < 6k] {
   mark: symbol('file://symbols/shop/pet.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'leisure_playground'][@sd < 6k] {
+[type = 'playground'][@sd < 6k] {
   mark: symbol('file://symbols/playground.svg');
   :mark { fill: #734a08 };
   [access <> ''][access <> 'permissive'][access <> 'yes'] {
@@ -721,11 +721,11 @@ mark: symbol('file://symbols/taoist.svg');
   }
 }
 
-[type = 'leisure_miniature_golf'][@sd < 6k] {
+[type = 'miniature_golf'][@sd < 6k] {
   mark: url('symbols/miniature_golf.p.20.png');
 }
 
-[type = 'leisure_golf_course'][@sd < 25k] {
+[type = 'golf_course'][@sd < 25k] {
   mark: url('symbols/golf.p.20.png');
 }
 
@@ -734,12 +734,12 @@ mark: symbol('file://symbols/taoist.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'leisure_picnic_table'][@sd < 6k] {
+[type = 'picnic_table'][@sd < 6k] {
   mark: symbol('file://symbols/picnic.svg');
   :mark { fill: #734a08 };
 }
 
-[type = 'leisure_slipway'][@sd < 6k] {
+[type = 'slipway'][@sd < 6k] {
   mark: url('symbols/transport_slipway.p.20.png');
 }
 
@@ -753,43 +753,43 @@ mark: symbol('file://symbols/taoist.svg');
   :mark { fill: #8461C4 };
 }
 
-[type = 'man_made_lighthouse'][@sd < 25k] {
+[type = 'lighthouse'][@sd < 25k] {
   mark: symbol('file://symbols/lighthouse.svg');
   :mark { fill: #0092da };
 }
 
-[type = 'natural_peak'][@sd < 400k] {
+[type = 'peak'][@sd < 400k] {
   mark: symbol('file://symbols/peak.svg');
   :mark { fill: #d08f55 };
 }
 
-[type = 'natural_volcano'][@sd < 400k] {
+[type = 'volcano'][@sd < 400k] {
   mark: symbol('file://symbols/peak.svg');
   :mark { fill: #d40000 };
 }
 
-[type = 'natural_saddle'][@sd < 25k] {
+[type = 'saddle'][@sd < 25k] {
   mark: symbol('file://symbols/saddle.svg');
   :mark { fill: #d08f55 };
 }
 
-[type = 'natural_cave_entrance'][@sd < 25k] {
+[type = 'cave_entrance'][@sd < 25k] {
   mark: symbol('file://symbols/cave.svg');
 }
 
-[type = 'natural_spring'][@sd < 50k] {
+[type = 'spring'][@sd < 50k] {
   mark: symbol('file://symbols/spring.svg');
 }
 
-[type = 'power_generator']['generator:source' = 'wind'],
-[type = 'power_generator'][power_source = 'wind'] {
+[type = 'generator']['generator:source' = 'wind'],
+[type = 'generator'][power_source = 'wind'] {
   [@sd < 25k] {
     mark: symbol('file://symbols/power_wind.svg');
     :mark { fill: black };
   }
 }
 
-[type = 'man_made_windmill'][@sd < 12.5k] {
+[type = 'windmill'][@sd < 12.5k] {
   mark: symbol('file://symbols/windmill.svg');
   :mark { fill: #734a08 };
 }
@@ -801,8 +801,9 @@ mark: symbol('file://symbols/taoist.svg');
 
 
 /*
+TODO: create one layer for these
 .amenity-low-priority {
-[type = 'man_made_cross'][@sd < 12.5k],
+[type = 'cross'][@sd < 12.5k],
 [type = 'historic_wayside_cross'][@sd < 12.5k] {
 mark: symbol('file://symbols/christian.9.svg');
 :mark { fill: #000000 };

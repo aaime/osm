@@ -612,8 +612,8 @@ tables:
       name: tracktype
       type: string
     - key: layer
-      name: layer
-      type: integer
+      name: z_order
+      type: wayzorder
     filters:
       exclude_tags:
       - - area

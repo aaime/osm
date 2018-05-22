@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
   <sld:NamedLayer>
     <sld:Name>Default Styler</sld:Name>
     <sld:UserStyle>
@@ -3211,11 +3210,10 @@
           <sld:MaxScaleDenominator>6000.0</sld:MaxScaleDenominator>
           <sld:PointSymbolizer>
             <sld:Graphic>
-              <sld:Mark>
-                <sld:WellKnownName>file://symbols/shop/butcher.png</sld:WellKnownName>
-                <sld:Fill/>
-                <sld:Stroke/>
-              </sld:Mark>
+              <sld:ExternalGraphic>
+                <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="symbols/shop/butcher.png"/>
+                <sld:Format>image/jpeg</sld:Format>
+              </sld:ExternalGraphic>
               <sld:Size>14</sld:Size>
             </sld:Graphic>
           </sld:PointSymbolizer>

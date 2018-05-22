@@ -447,7 +447,7 @@ mark: symbol('file://symbols/taoist.svg');
 }
 
 [type = 'butcher'][@sd < 6k] {
-  mark: symbol('file://symbols/shop/butcher.png');
+  mark: url('symbols/shop/butcher.png');
 }
 
 [type = 'chemist'][@sd < 6k] {
